@@ -3,11 +3,9 @@ Technical Task - predict dropout of digital trainings
 Stefan P. Thoma
 2022-08-29
 
-``` r
-knitr::include_graphics("candidate task.pdf")
-```
+# Task
 
-<embed src="candidate task.pdf" title="caption" alt="caption" width="85%" type="application/pdf" />
+![](candidate%20task.png)
 
 # Setup
 
@@ -385,6 +383,7 @@ check_model(glm_model)
 ```
 
 ![](Technical-Task_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+
 `risk_of_leaving` and `leadership_score` have the highest VIFs. This
 does not influence the prediction quality but may have an impact on
 which predictors become significant.
@@ -488,7 +487,8 @@ test_data <- test_data %>% mutate(
 The most informative performance measure is the ROC plot, and the AUC:
 
 ``` r
-roc.plot(test_data$training_completed, pred = cbind(test_data$glm_pred, test_data$lasso_pred), legend = TRUE, leg.text = c("glm", "lasso"))
+roc.plot(test_data$training_completed, pred = cbind(test_data$glm_pred, test_data$lasso_pred), 
+         legend = TRUE, leg.text = c("glm", "lasso"))
 ```
 
     ## Warning in roc.plot.default(test_data$training_completed, pred =
@@ -511,66 +511,66 @@ test_data <- test_data %>% mutate(
 
 
 # glm
-confusionMatrix(as_factor(test_data$training_completed), as_factor(test_data$glm_prediction))
+confusionMatrix(reference = as_factor(test_data$training_completed), data = as_factor(test_data$glm_prediction))
 ```
 
     ## Confusion Matrix and Statistics
     ## 
     ##           Reference
     ## Prediction   0   1
-    ##          0 306  90
-    ##          1  69 785
+    ##          0 306  69
+    ##          1  90 785
     ##                                          
     ##                Accuracy : 0.8728         
     ##                  95% CI : (0.853, 0.8908)
-    ##     No Information Rate : 0.7            
+    ##     No Information Rate : 0.6832         
     ##     P-Value [Acc > NIR] : <2e-16         
     ##                                          
     ##                   Kappa : 0.7019         
     ##                                          
     ##  Mcnemar's Test P-Value : 0.1127         
     ##                                          
-    ##             Sensitivity : 0.8160         
-    ##             Specificity : 0.8971         
-    ##          Pos Pred Value : 0.7727         
-    ##          Neg Pred Value : 0.9192         
-    ##              Prevalence : 0.3000         
+    ##             Sensitivity : 0.7727         
+    ##             Specificity : 0.9192         
+    ##          Pos Pred Value : 0.8160         
+    ##          Neg Pred Value : 0.8971         
+    ##              Prevalence : 0.3168         
     ##          Detection Rate : 0.2448         
-    ##    Detection Prevalence : 0.3168         
-    ##       Balanced Accuracy : 0.8566         
+    ##    Detection Prevalence : 0.3000         
+    ##       Balanced Accuracy : 0.8460         
     ##                                          
     ##        'Positive' Class : 0              
     ## 
 
 ``` r
 # lasso
-confusionMatrix(as_factor(test_data$training_completed), as_factor(test_data$lasso_prediction))
+confusionMatrix(reference = as_factor(test_data$training_completed), data = as_factor(test_data$lasso_prediction))
 ```
 
     ## Confusion Matrix and Statistics
     ## 
     ##           Reference
     ## Prediction   0   1
-    ##          0 329  67
-    ##          1  91 763
+    ##          0 329  91
+    ##          1  67 763
     ##                                           
     ##                Accuracy : 0.8736          
     ##                  95% CI : (0.8539, 0.8915)
-    ##     No Information Rate : 0.664           
+    ##     No Information Rate : 0.6832          
     ##     P-Value [Acc > NIR] : < 2e-16         
     ##                                           
     ##                   Kappa : 0.7127          
     ##                                           
     ##  Mcnemar's Test P-Value : 0.06728         
     ##                                           
-    ##             Sensitivity : 0.7833          
-    ##             Specificity : 0.9193          
-    ##          Pos Pred Value : 0.8308          
-    ##          Neg Pred Value : 0.8934          
-    ##              Prevalence : 0.3360          
+    ##             Sensitivity : 0.8308          
+    ##             Specificity : 0.8934          
+    ##          Pos Pred Value : 0.7833          
+    ##          Neg Pred Value : 0.9193          
+    ##              Prevalence : 0.3168          
     ##          Detection Rate : 0.2632          
-    ##    Detection Prevalence : 0.3168          
-    ##       Balanced Accuracy : 0.8513          
+    ##    Detection Prevalence : 0.3360          
+    ##       Balanced Accuracy : 0.8621          
     ##                                           
     ##        'Positive' Class : 0               
     ## 
@@ -581,18 +581,21 @@ The models were validated on unseen (test) data. This means that the
 model performance reported should reflect real world performance as good
 as possible.
 
-For both models we get a prediction accuracy of around 86% with which we
-can identify around 83% of employees who did not finish the class. Of
-the 876 employees who did finish the class only around 13% were
-misclassified as abandoning the class. These predictions were based on
-the cutoff of around 40% probability which optimises the accuracy.
+For both models we get a prediction accuracy of around 87% compared to
+the No Information Rate of 68%. We can identify around 77% (resp. 83%)
+of employees who did not finish the class (sensitivity). Caveat: The
+difference in model performance in sensitivity is most likely due to the
+different cutoff point. Of the 876 employees who did finish the class
+only around 10% were misclassified as abandoning the class. These
+predictions were based on the cutoff of around 50% (resp. 60%)
+probability which optimised accuracy.
 
 Both the lasso and the glm model showed a high AUC of around .93,
 further substantiating the model quality.
 
-There were nine predictors with a significant effect on the dropout
-probability. However, six of them stood out as strong predictors with a
-much larger z score. The most influential predictors:
+There were nine predictors with a significant coefficient in the glm
+model. However, six of them stood out as strong predictors with much
+larger z scores. The most influential predictors:
 
 `duration_elearning`: The longer the duration, the less likely to
 finish. `delta_trainings_last_year`: Higher delta means less likely to
@@ -616,7 +619,8 @@ modeling approach, at least for the departments (as there are I think
 9). In that scenario I might discard the `business_division` completely.
 
 Further, a transformation of some variables to reduce collinearity of
-the predictors might be in order.
+the predictors might be in order. Also, so far no interactions were
+considered.
 
 If the prediction would be the main goal, a random forest approach may
 yield even better results and should be considered for this task.

@@ -9,10 +9,9 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r label, out.width = "85%", fig.cap = "caption"}
-knitr::include_graphics("candidate task.pdf")
-```
+# Task
 
+![](candidate task.png)
 
 # Setup
 Here we load packages and set some parameters for this project.
@@ -189,6 +188,8 @@ summary(glm_model)
 
 check_model(glm_model)
 ```
+
+
 `risk_of_leaving` and `leadership_score` have the highest VIFs.
 This does not influence the prediction quality but may have an impact on which predictors become significant.
 
@@ -252,7 +253,8 @@ test_data <- test_data %>% mutate(
 
 The most informative performance measure is the ROC plot, and the AUC:
 ```{r}
-roc.plot(test_data$training_completed, pred = cbind(test_data$glm_pred, test_data$lasso_pred), legend = TRUE, leg.text = c("glm", "lasso"))
+roc.plot(test_data$training_completed, pred = cbind(test_data$glm_pred, test_data$lasso_pred), 
+         legend = TRUE, leg.text = c("glm", "lasso"))
 ```
 
 Here I extract more performance measures, such as accuracy and the confusion matrix:
@@ -268,10 +270,10 @@ test_data <- test_data %>% mutate(
 
 
 # glm
-confusionMatrix(as_factor(test_data$training_completed), as_factor(test_data$glm_prediction))
+confusionMatrix(reference = as_factor(test_data$training_completed), data = as_factor(test_data$glm_prediction))
 
 # lasso
-confusionMatrix(as_factor(test_data$training_completed), as_factor(test_data$lasso_prediction))
+confusionMatrix(reference = as_factor(test_data$training_completed), data = as_factor(test_data$lasso_prediction))
 ```
 
 
@@ -279,15 +281,17 @@ confusionMatrix(as_factor(test_data$training_completed), as_factor(test_data$las
 The models were validated on unseen (test) data. 
 This means that the model performance reported should reflect real world performance as good as possible. 
 
-For both models we get a prediction accuracy of around 86% with which we can identify around 83% of employees who did not finish the class.
-Of the 876 employees who did finish the class only around 13% were misclassified as abandoning the class.
-These predictions were based on the cutoff of around 40% probability which optimises the accuracy. 
+For both models we get a prediction accuracy of around 87% compared to the No Information Rate of 68%. 
+We can identify around 77% (resp. 83%) of employees who did not finish the class (sensitivity).
+Caveat: The difference in model performance in sensitivity is most likely due to the different cutoff point.
+Of the 876 employees who did finish the class only around 10% were misclassified as abandoning the class.
+These predictions were based on the cutoff of around 50% (resp. 60%) probability which optimised accuracy. 
 
 Both the lasso and the glm model showed a high AUC of around .93, further substantiating the model quality. 
 
 
-There were nine predictors with a significant effect on the dropout probability. 
-However, six of them stood out as strong predictors with a much larger z score. 
+There were nine predictors with a significant coefficient in the glm model. 
+However, six of them stood out as strong predictors with much larger z scores. 
 The most influential predictors:
 
 `duration_elearning`: The longer the duration, the less likely to finish.
@@ -310,6 +314,7 @@ The seemingly hierarchical structure of the two variables would likely warrant a
 In that scenario I might discard the `business_division` completely.
 
 Further, a transformation of some variables to reduce collinearity of the predictors might be in order.
+Also, so far no interactions were considered.
 
 If the prediction would be the main goal, a random forest approach may yield even better results and should be considered for this task. 
 
