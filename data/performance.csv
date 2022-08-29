@@ -1,0 +1,2501 @@
+id,date,rating
+1,2019/02/26,Need for improvement
+2,2019/02/14,Good
+3,2019/01/10,Need for improvement
+4,2019/01/16,Good
+5,2019/02/07,Very good
+6,2019/02/08,Good
+7,2019/03/08,Good
+8,2019/03/17,Good
+9,2019/02/28,Good
+10,2019/03/30,Need for improvement
+11,2019/03/21,Need for improvement
+12,2019/02/06,Good
+13,2019/01/05,Very good
+14,2019/03/22,Very good
+15,2019/03/31,Good
+16,2019/01/17,Need for improvement
+17,2019/01/09,Need for improvement
+18,2019/01/11,Good
+19,2019/03/27,Very good
+20,2019/01/24,Need for improvement
+21,2019/02/02,Need for improvement
+22,2019/01/07,Good
+23,2019/02/02,Need for improvement
+24,2019/01/01,Very good
+25,2019/01/19,Good
+26,2019/01/31,Need for improvement
+27,2019/02/19,Very good
+28,2019/01/22,Very good
+29,2019/03/07,Good
+30,2019/01/25,Very good
+31,2019/01/27,Very good
+32,2019/01/30,Very good
+33,2019/02/10,Very good
+34,2019/01/05,Very good
+35,2019/03/05,Very good
+36,2019/03/28,Very good
+37,2019/03/04,Need for improvement
+38,2019/02/18,Good
+39,2019/01/15,Good
+40,2019/02/11,Need for improvement
+41,2019/01/27,Very good
+42,2019/01/14,Very good
+43,2019/03/24,Need for improvement
+44,2019/01/27,Very good
+45,2019/03/02,Need for improvement
+46,2019/02/18,Very good
+47,2019/03/06,Very good
+48,2019/01/05,Need for improvement
+49,2019/02/16,Need for improvement
+50,2019/03/08,Good
+51,2019/03/09,Good
+52,2019/03/29,Good
+53,2019/03/18,Very good
+54,2019/03/06,Need for improvement
+55,2019/02/10,Need for improvement
+56,2019/01/15,Need for improvement
+57,2019/01/23,Very good
+58,2019/02/05,Very good
+59,2019/01/06,Very good
+60,2019/02/24,Good
+61,2019/03/11,Very good
+62,2019/01/24,Need for improvement
+63,2019/02/04,Need for improvement
+64,2019/03/30,Good
+65,2019/03/27,Good
+66,2019/02/08,Good
+67,2019/02/05,Very good
+68,2019/01/29,Good
+69,2019/01/29,Very good
+70,2019/02/08,Very good
+71,2019/02/24,Very good
+72,2019/03/07,Good
+73,2019/02/24,Very good
+74,2019/02/17,Good
+75,2019/01/08,Good
+76,2019/02/24,Very good
+77,2019/03/03,Very good
+78,2019/01/25,Very good
+79,2019/02/14,Good
+80,2019/02/07,Very good
+81,2019/03/07,Good
+82,2019/03/14,Good
+83,2019/02/04,Very good
+84,2019/02/24,Need for improvement
+85,2019/03/21,Good
+86,2019/03/13,Very good
+87,2019/03/07,Good
+88,2019/03/14,Very good
+89,2019/02/18,Need for improvement
+90,2019/01/31,Good
+91,2019/01/25,Good
+92,2019/01/01,Need for improvement
+93,2019/02/03,Good
+94,2019/02/22,Good
+95,2019/03/05,Very good
+96,2019/03/26,Very good
+97,2019/03/04,Need for improvement
+98,2019/02/05,Very good
+99,2019/01/04,Very good
+100,2019/01/27,Need for improvement
+101,2019/01/01,Good
+102,2019/02/13,Need for improvement
+103,2019/03/04,Need for improvement
+104,2019/01/07,Need for improvement
+105,2019/03/03,Very good
+106,2019/03/27,Good
+107,2019/02/26,Very good
+108,2019/03/24,Good
+109,2019/02/06,Need for improvement
+110,2019/02/23,Very good
+111,2019/02/10,Very good
+112,2019/01/31,Very good
+113,2019/01/15,Very good
+114,2019/02/28,Good
+115,2019/02/12,Need for improvement
+116,2019/03/18,Need for improvement
+117,2019/01/04,Good
+118,2019/01/21,Very good
+119,2019/03/23,Very good
+120,2019/02/11,Very good
+121,2019/02/04,Very good
+122,2019/01/16,Good
+123,2019/03/26,Need for improvement
+124,2019/02/21,Very good
+125,2019/01/20,Good
+126,2019/02/23,Good
+127,2019/02/23,Very good
+128,2019/03/07,Very good
+129,2019/01/10,Need for improvement
+130,2019/02/14,Need for improvement
+131,2019/02/14,Good
+132,2019/01/31,Good
+133,2019/02/19,Very good
+134,2019/02/10,Need for improvement
+135,2019/03/30,Need for improvement
+136,2019/01/07,Very good
+137,2019/01/12,Very good
+138,2019/03/23,Good
+139,2019/03/18,Very good
+140,2019/03/31,Need for improvement
+141,2019/03/16,Need for improvement
+142,2019/03/23,Very good
+143,2019/01/19,Need for improvement
+144,2019/02/28,Good
+145,2019/01/21,Good
+146,2019/01/06,Need for improvement
+147,2019/02/04,Good
+148,2019/03/07,Very good
+149,2019/03/14,Need for improvement
+150,2019/01/02,Very good
+151,2019/03/15,Good
+152,2019/03/07,Very good
+153,2019/01/11,Very good
+154,2019/01/30,Need for improvement
+155,2019/01/04,Need for improvement
+156,2019/03/18,Very good
+157,2019/02/25,Need for improvement
+158,2019/03/07,Very good
+159,2019/01/29,Good
+160,2019/03/28,Need for improvement
+161,2019/02/16,Good
+162,2019/03/23,Very good
+163,2019/02/06,Need for improvement
+164,2019/01/11,Need for improvement
+165,2019/02/27,Very good
+166,2019/01/07,Very good
+167,2019/01/30,Good
+168,2019/01/26,Good
+169,2019/03/10,Good
+170,2019/03/16,Good
+171,2019/02/24,Good
+172,2019/02/15,Very good
+173,2019/03/17,Very good
+174,2019/01/24,Very good
+175,2019/02/03,Very good
+176,2019/03/26,Very good
+177,2019/02/02,Need for improvement
+178,2019/01/08,Very good
+179,2019/02/18,Good
+180,2019/01/29,Good
+181,2019/01/22,Very good
+182,2019/02/18,Good
+183,2019/01/25,Good
+184,2019/03/11,Very good
+185,2019/01/19,Need for improvement
+186,2019/01/02,Need for improvement
+187,2019/03/20,Very good
+188,2019/02/02,Good
+189,2019/02/09,Good
+190,2019/02/21,Very good
+191,2019/03/14,Good
+192,2019/03/31,Very good
+193,2019/01/05,Good
+194,2019/01/01,Good
+195,2019/03/20,Good
+196,2019/02/26,Good
+197,2019/02/04,Very good
+198,2019/03/03,Good
+199,2019/02/16,Good
+200,2019/02/07,Very good
+201,2019/01/26,Need for improvement
+202,2019/01/19,Good
+203,2019/01/29,Good
+204,2019/03/30,Need for improvement
+205,2019/01/29,Need for improvement
+206,2019/01/26,Very good
+207,2019/03/25,Very good
+208,2019/01/23,Very good
+209,2019/01/05,Need for improvement
+210,2019/02/16,Very good
+211,2019/01/25,Very good
+212,2019/02/20,Good
+213,2019/01/10,Very good
+214,2019/02/26,Very good
+215,2019/02/23,Need for improvement
+216,2019/01/28,Good
+217,2019/01/19,Very good
+218,2019/02/01,Need for improvement
+219,2019/02/04,Need for improvement
+220,2019/03/29,Very good
+221,2019/01/06,Very good
+222,2019/03/09,Need for improvement
+223,2019/02/05,Good
+224,2019/02/28,Good
+225,2019/01/19,Good
+226,2019/02/25,Good
+227,2019/02/24,Good
+228,2019/01/25,Very good
+229,2019/03/03,Very good
+230,2019/01/03,Need for improvement
+231,2019/02/28,Need for improvement
+232,2019/02/21,Good
+233,2019/02/09,Very good
+234,2019/02/13,Good
+235,2019/02/17,Very good
+236,2019/01/02,Good
+237,2019/03/07,Very good
+238,2019/02/03,Very good
+239,2019/03/16,Need for improvement
+240,2019/01/21,Need for improvement
+241,2019/03/11,Good
+242,2019/02/25,Very good
+243,2019/02/20,Good
+244,2019/02/08,Good
+245,2019/01/26,Need for improvement
+246,2019/01/10,Need for improvement
+247,2019/01/14,Very good
+248,2019/03/27,Need for improvement
+249,2019/02/22,Need for improvement
+250,2019/03/14,Very good
+251,2019/02/28,Very good
+252,2019/01/02,Good
+253,2019/03/27,Good
+254,2019/01/29,Very good
+255,2019/01/04,Need for improvement
+256,2019/01/15,Need for improvement
+257,2019/01/25,Need for improvement
+258,2019/01/22,Very good
+259,2019/01/25,Very good
+260,2019/01/10,Need for improvement
+261,2019/01/03,Need for improvement
+262,2019/02/01,Need for improvement
+263,2019/03/09,Need for improvement
+264,2019/02/25,Need for improvement
+265,2019/02/05,Very good
+266,2019/02/26,Very good
+267,2019/01/24,Good
+268,2019/01/05,Good
+269,2019/03/22,Very good
+270,2019/03/12,Very good
+271,2019/02/21,Good
+272,2019/02/25,Need for improvement
+273,2019/01/08,Very good
+274,2019/02/12,Good
+275,2019/02/02,Good
+276,2019/01/19,Very good
+277,2019/01/13,Need for improvement
+278,2019/03/16,Good
+279,2019/01/07,Need for improvement
+280,2019/03/12,Good
+281,2019/01/30,Need for improvement
+282,2019/02/21,Very good
+283,2019/03/01,Need for improvement
+284,2019/03/13,Good
+285,2019/02/24,Very good
+286,2019/03/25,Very good
+287,2019/01/30,Need for improvement
+288,2019/02/27,Very good
+289,2019/02/08,Very good
+290,2019/02/10,Need for improvement
+291,2019/03/17,Very good
+292,2019/02/06,Very good
+293,2019/01/31,Good
+294,2019/01/24,Need for improvement
+295,2019/03/24,Need for improvement
+296,2019/01/03,Need for improvement
+297,2019/02/06,Very good
+298,2019/01/28,Very good
+299,2019/03/20,Need for improvement
+300,2019/01/25,Very good
+301,2019/01/17,Good
+302,2019/01/20,Good
+303,2019/03/13,Good
+304,2019/02/24,Need for improvement
+305,2019/02/07,Very good
+306,2019/01/06,Very good
+307,2019/02/17,Very good
+308,2019/01/28,Need for improvement
+309,2019/01/13,Good
+310,2019/02/19,Good
+311,2019/01/13,Very good
+312,2019/03/20,Need for improvement
+313,2019/03/30,Need for improvement
+314,2019/03/06,Need for improvement
+315,2019/03/31,Need for improvement
+316,2019/01/24,Good
+317,2019/03/04,Very good
+318,2019/01/27,Very good
+319,2019/02/15,Good
+320,2019/01/07,Good
+321,2019/01/07,Good
+322,2019/01/01,Need for improvement
+323,2019/01/26,Very good
+324,2019/02/05,Very good
+325,2019/02/02,Very good
+326,2019/03/06,Very good
+327,2019/01/31,Very good
+328,2019/03/02,Need for improvement
+329,2019/03/30,Need for improvement
+330,2019/03/17,Good
+331,2019/01/05,Good
+332,2019/03/29,Good
+333,2019/03/03,Need for improvement
+334,2019/01/11,Need for improvement
+335,2019/03/03,Very good
+336,2019/03/19,Need for improvement
+337,2019/03/05,Good
+338,2019/01/31,Good
+339,2019/02/24,Very good
+340,2019/01/14,Very good
+341,2019/03/04,Good
+342,2019/02/15,Need for improvement
+343,2019/02/21,Need for improvement
+344,2019/03/19,Good
+345,2019/01/02,Need for improvement
+346,2019/01/31,Need for improvement
+347,2019/03/01,Very good
+348,2019/01/05,Need for improvement
+349,2019/01/03,Very good
+350,2019/03/28,Need for improvement
+351,2019/02/21,Good
+352,2019/03/24,Need for improvement
+353,2019/03/31,Good
+354,2019/02/11,Good
+355,2019/03/26,Very good
+356,2019/02/04,Good
+357,2019/02/13,Need for improvement
+358,2019/03/04,Need for improvement
+359,2019/03/09,Very good
+360,2019/02/22,Very good
+361,2019/01/10,Need for improvement
+362,2019/01/31,Very good
+363,2019/01/26,Good
+364,2019/03/14,Need for improvement
+365,2019/01/31,Need for improvement
+366,2019/03/07,Very good
+367,2019/02/14,Need for improvement
+368,2019/03/22,Good
+369,2019/03/14,Need for improvement
+370,2019/02/07,Very good
+371,2019/02/14,Need for improvement
+372,2019/03/13,Very good
+373,2019/03/16,Need for improvement
+374,2019/02/01,Good
+375,2019/02/23,Need for improvement
+376,2019/01/29,Need for improvement
+377,2019/01/13,Need for improvement
+378,2019/01/01,Need for improvement
+379,2019/03/18,Very good
+380,2019/02/19,Need for improvement
+381,2019/03/07,Very good
+382,2019/01/09,Need for improvement
+383,2019/02/19,Good
+384,2019/03/30,Very good
+385,2019/01/10,Good
+386,2019/01/25,Good
+387,2019/01/31,Very good
+388,2019/02/02,Good
+389,2019/02/27,Very good
+390,2019/03/21,Need for improvement
+391,2019/03/02,Very good
+392,2019/03/11,Good
+393,2019/01/24,Very good
+394,2019/01/16,Very good
+395,2019/03/30,Good
+396,2019/03/15,Very good
+397,2019/03/10,Need for improvement
+398,2019/01/01,Good
+399,2019/02/06,Good
+400,2019/01/25,Good
+401,2019/01/25,Very good
+402,2019/02/28,Need for improvement
+403,2019/01/05,Very good
+404,2019/02/25,Need for improvement
+405,2019/02/26,Need for improvement
+406,2019/02/14,Very good
+407,2019/03/07,Good
+408,2019/01/09,Good
+409,2019/01/02,Good
+410,2019/01/10,Need for improvement
+411,2019/03/14,Good
+412,2019/01/08,Good
+413,2019/02/10,Very good
+414,2019/03/08,Need for improvement
+415,2019/01/07,Good
+416,2019/01/02,Good
+417,2019/01/06,Very good
+418,2019/02/15,Need for improvement
+419,2019/02/22,Good
+420,2019/02/08,Good
+421,2019/03/22,Need for improvement
+422,2019/03/28,Need for improvement
+423,2019/02/16,Need for improvement
+424,2019/01/30,Good
+425,2019/03/11,Good
+426,2019/01/19,Good
+427,2019/02/14,Need for improvement
+428,2019/01/06,Need for improvement
+429,2019/02/22,Need for improvement
+430,2019/01/18,Good
+431,2019/03/14,Need for improvement
+432,2019/01/07,Good
+433,2019/02/22,Very good
+434,2019/03/01,Good
+435,2019/02/03,Good
+436,2019/02/03,Very good
+437,2019/03/23,Good
+438,2019/03/05,Very good
+439,2019/01/29,Very good
+440,2019/01/19,Good
+441,2019/01/22,Good
+442,2019/03/24,Good
+443,2019/03/29,Good
+444,2019/03/18,Good
+445,2019/01/21,Very good
+446,2019/01/25,Good
+447,2019/03/26,Very good
+448,2019/01/28,Good
+449,2019/02/19,Need for improvement
+450,2019/03/03,Very good
+451,2019/03/21,Need for improvement
+452,2019/03/11,Good
+453,2019/02/25,Need for improvement
+454,2019/01/23,Good
+455,2019/03/15,Good
+456,2019/01/30,Need for improvement
+457,2019/02/20,Good
+458,2019/03/18,Need for improvement
+459,2019/03/03,Need for improvement
+460,2019/03/17,Need for improvement
+461,2019/02/17,Good
+462,2019/02/19,Very good
+463,2019/03/10,Need for improvement
+464,2019/03/07,Need for improvement
+465,2019/03/14,Very good
+466,2019/01/31,Very good
+467,2019/03/07,Need for improvement
+468,2019/01/03,Good
+469,2019/02/17,Good
+470,2019/01/09,Very good
+471,2019/01/19,Good
+472,2019/03/15,Very good
+473,2019/01/21,Need for improvement
+474,2019/01/12,Good
+475,2019/02/16,Good
+476,2019/03/10,Good
+477,2019/02/02,Need for improvement
+478,2019/02/14,Need for improvement
+479,2019/01/23,Good
+480,2019/02/05,Good
+481,2019/03/06,Need for improvement
+482,2019/03/12,Very good
+483,2019/03/11,Need for improvement
+484,2019/03/25,Need for improvement
+485,2019/01/03,Very good
+486,2019/02/17,Good
+487,2019/02/24,Good
+488,2019/02/25,Need for improvement
+489,2019/03/21,Need for improvement
+490,2019/03/29,Need for improvement
+491,2019/03/20,Good
+492,2019/02/12,Need for improvement
+493,2019/02/09,Need for improvement
+494,2019/01/20,Very good
+495,2019/03/28,Good
+496,2019/01/23,Need for improvement
+497,2019/01/05,Need for improvement
+498,2019/01/24,Very good
+499,2019/03/22,Good
+500,2019/03/30,Very good
+501,2019/03/30,Very good
+502,2019/02/04,Very good
+503,2019/01/12,Need for improvement
+504,2019/01/25,Good
+505,2019/01/09,Very good
+506,2019/02/02,Very good
+507,2019/02/20,Very good
+508,2019/03/23,Need for improvement
+509,2019/02/01,Need for improvement
+510,2019/02/18,Good
+511,2019/03/20,Need for improvement
+512,2019/03/29,Need for improvement
+513,2019/02/14,Good
+514,2019/02/12,Need for improvement
+515,2019/01/29,Good
+516,2019/02/15,Good
+517,2019/01/28,Good
+518,2019/02/22,Very good
+519,2019/01/23,Very good
+520,2019/03/10,Need for improvement
+521,2019/03/14,Need for improvement
+522,2019/01/08,Need for improvement
+523,2019/02/27,Need for improvement
+524,2019/02/09,Very good
+525,2019/03/19,Need for improvement
+526,2019/01/13,Need for improvement
+527,2019/03/22,Very good
+528,2019/02/12,Very good
+529,2019/01/13,Good
+530,2019/02/06,Good
+531,2019/03/22,Very good
+532,2019/02/09,Good
+533,2019/02/11,Need for improvement
+534,2019/01/02,Good
+535,2019/01/31,Good
+536,2019/02/10,Very good
+537,2019/03/12,Good
+538,2019/03/25,Good
+539,2019/01/29,Need for improvement
+540,2019/02/16,Need for improvement
+541,2019/02/24,Very good
+542,2019/02/13,Good
+543,2019/03/30,Need for improvement
+544,2019/01/20,Very good
+545,2019/01/30,Very good
+546,2019/03/31,Need for improvement
+547,2019/03/01,Need for improvement
+548,2019/01/22,Very good
+549,2019/03/15,Good
+550,2019/01/30,Need for improvement
+551,2019/01/28,Need for improvement
+552,2019/02/13,Good
+553,2019/03/06,Good
+554,2019/02/23,Very good
+555,2019/02/13,Very good
+556,2019/02/24,Need for improvement
+557,2019/02/26,Need for improvement
+558,2019/01/17,Good
+559,2019/03/28,Very good
+560,2019/01/27,Very good
+561,2019/02/10,Good
+562,2019/01/18,Very good
+563,2019/02/22,Good
+564,2019/03/17,Very good
+565,2019/01/17,Need for improvement
+566,2019/03/15,Good
+567,2019/02/28,Good
+568,2019/03/08,Good
+569,2019/03/29,Good
+570,2019/01/04,Good
+571,2019/03/25,Very good
+572,2019/03/22,Need for improvement
+573,2019/01/01,Very good
+574,2019/02/03,Need for improvement
+575,2019/03/29,Need for improvement
+576,2019/02/08,Good
+577,2019/03/23,Good
+578,2019/01/23,Good
+579,2019/01/22,Need for improvement
+580,2019/03/13,Good
+581,2019/03/25,Good
+582,2019/01/31,Very good
+583,2019/03/29,Need for improvement
+584,2019/03/20,Good
+585,2019/03/22,Very good
+586,2019/01/25,Very good
+587,2019/01/01,Need for improvement
+588,2019/01/24,Very good
+589,2019/02/18,Very good
+590,2019/03/16,Need for improvement
+591,2019/01/25,Need for improvement
+592,2019/02/25,Need for improvement
+593,2019/03/28,Very good
+594,2019/03/31,Very good
+595,2019/03/20,Very good
+596,2019/01/13,Good
+597,2019/01/28,Very good
+598,2019/01/03,Need for improvement
+599,2019/03/21,Good
+600,2019/03/26,Good
+601,2019/03/06,Very good
+602,2019/02/09,Very good
+603,2019/01/19,Good
+604,2019/01/14,Very good
+605,2019/02/04,Good
+606,2019/01/10,Good
+607,2019/01/19,Good
+608,2019/03/01,Need for improvement
+609,2019/01/06,Very good
+610,2019/01/26,Good
+611,2019/03/07,Very good
+612,2019/02/27,Need for improvement
+613,2019/02/11,Need for improvement
+614,2019/01/08,Very good
+615,2019/03/28,Need for improvement
+616,2019/03/15,Need for improvement
+617,2019/01/04,Very good
+618,2019/01/18,Very good
+619,2019/01/17,Very good
+620,2019/02/13,Very good
+621,2019/03/21,Good
+622,2019/03/30,Need for improvement
+623,2019/01/11,Need for improvement
+624,2019/03/13,Very good
+625,2019/02/11,Very good
+626,2019/02/16,Good
+627,2019/02/11,Need for improvement
+628,2019/02/01,Very good
+629,2019/02/04,Need for improvement
+630,2019/01/04,Good
+631,2019/01/08,Good
+632,2019/02/11,Need for improvement
+633,2019/03/20,Very good
+634,2019/02/05,Very good
+635,2019/01/18,Need for improvement
+636,2019/02/04,Need for improvement
+637,2019/02/03,Need for improvement
+638,2019/02/05,Good
+639,2019/03/11,Very good
+640,2019/03/20,Need for improvement
+641,2019/02/24,Very good
+642,2019/03/03,Good
+643,2019/01/20,Need for improvement
+644,2019/03/17,Good
+645,2019/03/12,Good
+646,2019/03/01,Need for improvement
+647,2019/02/09,Good
+648,2019/03/12,Good
+649,2019/03/22,Very good
+650,2019/02/17,Good
+651,2019/01/17,Very good
+652,2019/02/08,Need for improvement
+653,2019/01/26,Good
+654,2019/01/29,Need for improvement
+655,2019/02/23,Very good
+656,2019/02/08,Need for improvement
+657,2019/03/27,Need for improvement
+658,2019/03/28,Good
+659,2019/01/15,Very good
+660,2019/01/09,Need for improvement
+661,2019/03/15,Good
+662,2019/03/02,Very good
+663,2019/02/27,Good
+664,2019/01/27,Need for improvement
+665,2019/01/10,Need for improvement
+666,2019/02/23,Good
+667,2019/03/18,Very good
+668,2019/03/13,Very good
+669,2019/02/05,Need for improvement
+670,2019/01/06,Good
+671,2019/01/05,Very good
+672,2019/01/21,Good
+673,2019/02/25,Good
+674,2019/01/12,Good
+675,2019/01/11,Very good
+676,2019/02/12,Good
+677,2019/03/16,Good
+678,2019/02/01,Need for improvement
+679,2019/03/07,Good
+680,2019/03/06,Good
+681,2019/01/06,Very good
+682,2019/01/13,Very good
+683,2019/02/20,Very good
+684,2019/03/11,Very good
+685,2019/03/22,Good
+686,2019/02/14,Very good
+687,2019/01/08,Need for improvement
+688,2019/02/27,Very good
+689,2019/01/22,Need for improvement
+690,2019/03/11,Good
+691,2019/01/21,Very good
+692,2019/01/21,Very good
+693,2019/01/11,Very good
+694,2019/01/25,Need for improvement
+695,2019/01/05,Very good
+696,2019/02/23,Good
+697,2019/03/08,Good
+698,2019/02/22,Good
+699,2019/02/11,Very good
+700,2019/03/02,Very good
+701,2019/02/24,Very good
+702,2019/03/30,Need for improvement
+703,2019/01/21,Need for improvement
+704,2019/02/27,Need for improvement
+705,2019/02/25,Good
+706,2019/02/02,Very good
+707,2019/03/24,Need for improvement
+708,2019/01/01,Very good
+709,2019/03/12,Need for improvement
+710,2019/01/06,Need for improvement
+711,2019/02/16,Good
+712,2019/01/19,Need for improvement
+713,2019/03/16,Very good
+714,2019/03/07,Very good
+715,2019/02/01,Need for improvement
+716,2019/03/07,Good
+717,2019/03/08,Very good
+718,2019/02/21,Very good
+719,2019/02/18,Very good
+720,2019/03/27,Good
+721,2019/01/14,Need for improvement
+722,2019/02/25,Very good
+723,2019/03/06,Very good
+724,2019/01/12,Good
+725,2019/02/11,Very good
+726,2019/02/18,Need for improvement
+727,2019/02/18,Need for improvement
+728,2019/03/08,Good
+729,2019/01/27,Good
+730,2019/01/25,Very good
+731,2019/02/02,Very good
+732,2019/03/19,Need for improvement
+733,2019/03/07,Need for improvement
+734,2019/02/04,Need for improvement
+735,2019/01/22,Need for improvement
+736,2019/03/11,Very good
+737,2019/01/20,Good
+738,2019/02/22,Very good
+739,2019/03/04,Good
+740,2019/03/26,Good
+741,2019/03/15,Good
+742,2019/02/16,Good
+743,2019/02/13,Good
+744,2019/01/01,Need for improvement
+745,2019/03/20,Good
+746,2019/03/04,Need for improvement
+747,2019/02/12,Very good
+748,2019/02/26,Need for improvement
+749,2019/01/10,Very good
+750,2019/01/31,Very good
+751,2019/01/26,Need for improvement
+752,2019/02/27,Need for improvement
+753,2019/02/02,Need for improvement
+754,2019/01/07,Good
+755,2019/01/24,Good
+756,2019/01/24,Need for improvement
+757,2019/02/24,Need for improvement
+758,2019/01/26,Good
+759,2019/01/02,Need for improvement
+760,2019/01/11,Good
+761,2019/01/25,Very good
+762,2019/01/31,Very good
+763,2019/02/13,Need for improvement
+764,2019/01/23,Good
+765,2019/01/25,Good
+766,2019/03/20,Need for improvement
+767,2019/02/24,Good
+768,2019/02/28,Very good
+769,2019/01/24,Need for improvement
+770,2019/03/20,Good
+771,2019/02/04,Very good
+772,2019/02/05,Need for improvement
+773,2019/02/11,Very good
+774,2019/02/26,Need for improvement
+775,2019/03/14,Good
+776,2019/01/04,Very good
+777,2019/02/25,Very good
+778,2019/03/08,Good
+779,2019/01/13,Good
+780,2019/02/19,Very good
+781,2019/01/31,Need for improvement
+782,2019/02/14,Very good
+783,2019/03/22,Good
+784,2019/01/20,Very good
+785,2019/01/23,Good
+786,2019/01/31,Need for improvement
+787,2019/03/10,Very good
+788,2019/03/19,Need for improvement
+789,2019/02/17,Good
+790,2019/03/20,Very good
+791,2019/02/20,Very good
+792,2019/03/31,Need for improvement
+793,2019/02/25,Very good
+794,2019/02/14,Good
+795,2019/01/05,Very good
+796,2019/03/27,Good
+797,2019/01/08,Very good
+798,2019/02/18,Good
+799,2019/01/09,Very good
+800,2019/02/28,Need for improvement
+801,2019/03/26,Need for improvement
+802,2019/02/16,Very good
+803,2019/01/30,Good
+804,2019/01/23,Good
+805,2019/03/02,Good
+806,2019/02/04,Good
+807,2019/01/27,Need for improvement
+808,2019/01/29,Very good
+809,2019/03/07,Good
+810,2019/01/25,Good
+811,2019/03/14,Good
+812,2019/01/05,Need for improvement
+813,2019/01/11,Good
+814,2019/01/14,Need for improvement
+815,2019/02/08,Need for improvement
+816,2019/01/30,Very good
+817,2019/02/21,Good
+818,2019/02/17,Need for improvement
+819,2019/01/11,Very good
+820,2019/02/13,Good
+821,2019/02/03,Very good
+822,2019/02/27,Very good
+823,2019/03/11,Very good
+824,2019/03/16,Good
+825,2019/03/01,Good
+826,2019/02/14,Need for improvement
+827,2019/02/18,Very good
+828,2019/03/01,Good
+829,2019/02/13,Good
+830,2019/02/01,Good
+831,2019/03/03,Need for improvement
+832,2019/01/30,Very good
+833,2019/03/23,Good
+834,2019/02/06,Good
+835,2019/02/03,Good
+836,2019/03/12,Need for improvement
+837,2019/02/08,Need for improvement
+838,2019/02/03,Need for improvement
+839,2019/03/16,Very good
+840,2019/01/27,Good
+841,2019/03/16,Need for improvement
+842,2019/02/17,Need for improvement
+843,2019/02/15,Need for improvement
+844,2019/02/18,Good
+845,2019/02/04,Very good
+846,2019/01/31,Very good
+847,2019/03/14,Good
+848,2019/03/12,Good
+849,2019/01/28,Good
+850,2019/02/04,Need for improvement
+851,2019/03/19,Good
+852,2019/03/02,Need for improvement
+853,2019/01/28,Need for improvement
+854,2019/03/10,Very good
+855,2019/03/07,Very good
+856,2019/03/05,Need for improvement
+857,2019/03/05,Very good
+858,2019/01/27,Very good
+859,2019/01/04,Good
+860,2019/02/26,Very good
+861,2019/03/26,Very good
+862,2019/02/25,Need for improvement
+863,2019/01/24,Good
+864,2019/01/08,Good
+865,2019/01/30,Very good
+866,2019/02/19,Very good
+867,2019/01/18,Very good
+868,2019/01/24,Need for improvement
+869,2019/01/11,Need for improvement
+870,2019/01/29,Very good
+871,2019/02/24,Need for improvement
+872,2019/03/22,Very good
+873,2019/02/27,Very good
+874,2019/02/02,Need for improvement
+875,2019/03/11,Need for improvement
+876,2019/01/09,Good
+877,2019/02/12,Good
+878,2019/01/27,Very good
+879,2019/02/24,Very good
+880,2019/02/23,Good
+881,2019/01/10,Very good
+882,2019/02/24,Very good
+883,2019/02/22,Need for improvement
+884,2019/03/13,Good
+885,2019/01/19,Need for improvement
+886,2019/02/06,Very good
+887,2019/03/30,Need for improvement
+888,2019/01/28,Very good
+889,2019/02/22,Need for improvement
+890,2019/03/25,Need for improvement
+891,2019/02/03,Need for improvement
+892,2019/01/04,Very good
+893,2019/03/20,Need for improvement
+894,2019/02/17,Need for improvement
+895,2019/03/15,Good
+896,2019/02/07,Good
+897,2019/01/26,Very good
+898,2019/03/26,Need for improvement
+899,2019/03/16,Very good
+900,2019/02/21,Very good
+901,2019/03/03,Good
+902,2019/01/21,Very good
+903,2019/03/06,Very good
+904,2019/03/26,Need for improvement
+905,2019/03/30,Good
+906,2019/02/01,Need for improvement
+907,2019/03/26,Good
+908,2019/01/27,Good
+909,2019/01/10,Good
+910,2019/03/24,Very good
+911,2019/01/27,Very good
+912,2019/02/11,Very good
+913,2019/01/13,Need for improvement
+914,2019/03/19,Good
+915,2019/03/20,Need for improvement
+916,2019/03/23,Very good
+917,2019/01/27,Very good
+918,2019/01/15,Very good
+919,2019/03/16,Good
+920,2019/01/03,Good
+921,2019/02/08,Good
+922,2019/01/23,Good
+923,2019/01/13,Good
+924,2019/02/28,Good
+925,2019/03/02,Good
+926,2019/03/03,Good
+927,2019/03/04,Need for improvement
+928,2019/03/03,Very good
+929,2019/02/21,Need for improvement
+930,2019/02/01,Good
+931,2019/03/17,Very good
+932,2019/01/24,Need for improvement
+933,2019/03/21,Need for improvement
+934,2019/03/04,Very good
+935,2019/02/28,Very good
+936,2019/03/18,Good
+937,2019/02/13,Good
+938,2019/01/27,Good
+939,2019/02/01,Good
+940,2019/03/21,Good
+941,2019/02/23,Good
+942,2019/01/21,Very good
+943,2019/01/20,Very good
+944,2019/03/01,Need for improvement
+945,2019/02/04,Need for improvement
+946,2019/03/18,Need for improvement
+947,2019/03/08,Very good
+948,2019/01/25,Very good
+949,2019/03/11,Good
+950,2019/02/22,Need for improvement
+951,2019/01/03,Very good
+952,2019/01/13,Good
+953,2019/03/28,Good
+954,2019/03/06,Good
+955,2019/01/12,Need for improvement
+956,2019/01/27,Good
+957,2019/03/13,Need for improvement
+958,2019/03/17,Need for improvement
+959,2019/01/10,Good
+960,2019/02/19,Need for improvement
+961,2019/01/05,Good
+962,2019/02/25,Need for improvement
+963,2019/01/09,Need for improvement
+964,2019/01/06,Very good
+965,2019/02/04,Need for improvement
+966,2019/01/21,Very good
+967,2019/02/10,Need for improvement
+968,2019/02/02,Need for improvement
+969,2019/02/14,Good
+970,2019/02/08,Need for improvement
+971,2019/01/24,Good
+972,2019/02/15,Need for improvement
+973,2019/01/09,Good
+974,2019/03/26,Good
+975,2019/01/13,Good
+976,2019/02/13,Good
+977,2019/03/08,Very good
+978,2019/02/28,Good
+979,2019/03/21,Very good
+980,2019/03/11,Very good
+981,2019/03/17,Good
+982,2019/03/22,Very good
+983,2019/01/02,Need for improvement
+984,2019/01/22,Need for improvement
+985,2019/02/01,Need for improvement
+986,2019/02/05,Need for improvement
+987,2019/01/30,Good
+988,2019/02/03,Good
+989,2019/01/03,Very good
+990,2019/03/30,Good
+991,2019/02/14,Need for improvement
+992,2019/02/04,Need for improvement
+993,2019/02/05,Very good
+994,2019/03/12,Very good
+995,2019/02/17,Very good
+996,2019/03/01,Need for improvement
+997,2019/01/17,Very good
+998,2019/03/15,Good
+999,2019/02/11,Very good
+1000,2019/01/27,Need for improvement
+1001,2019/01/13,Very good
+1002,2019/02/27,Need for improvement
+1003,2019/03/10,Good
+1004,2019/03/30,Good
+1005,2019/03/28,Good
+1006,2019/02/02,Very good
+1007,2019/03/05,Very good
+1008,2019/03/04,Very good
+1009,2019/01/02,Need for improvement
+1010,2019/02/26,Need for improvement
+1011,2019/03/23,Need for improvement
+1012,2019/03/16,Good
+1013,2019/03/01,Very good
+1014,2019/03/18,Need for improvement
+1015,2019/01/24,Need for improvement
+1016,2019/03/16,Very good
+1017,2019/02/09,Good
+1018,2019/01/17,Need for improvement
+1019,2019/01/16,Need for improvement
+1020,2019/01/28,Need for improvement
+1021,2019/03/19,Need for improvement
+1022,2019/01/07,Good
+1023,2019/02/18,Very good
+1024,2019/03/27,Good
+1025,2019/02/09,Good
+1026,2019/02/11,Need for improvement
+1027,2019/01/12,Good
+1028,2019/01/19,Very good
+1029,2019/01/22,Need for improvement
+1030,2019/02/24,Very good
+1031,2019/03/03,Need for improvement
+1032,2019/03/04,Very good
+1033,2019/02/27,Good
+1034,2019/03/27,Need for improvement
+1035,2019/03/03,Very good
+1036,2019/01/16,Need for improvement
+1037,2019/03/18,Very good
+1038,2019/03/06,Need for improvement
+1039,2019/03/15,Very good
+1040,2019/01/28,Good
+1041,2019/02/08,Good
+1042,2019/03/14,Good
+1043,2019/01/18,Very good
+1044,2019/03/24,Need for improvement
+1045,2019/03/03,Good
+1046,2019/01/15,Need for improvement
+1047,2019/02/27,Good
+1048,2019/02/04,Very good
+1049,2019/03/29,Very good
+1050,2019/03/26,Good
+1051,2019/01/05,Need for improvement
+1052,2019/01/14,Good
+1053,2019/01/17,Need for improvement
+1054,2019/01/19,Need for improvement
+1055,2019/03/15,Need for improvement
+1056,2019/01/13,Good
+1057,2019/01/03,Need for improvement
+1058,2019/02/01,Good
+1059,2019/02/20,Very good
+1060,2019/01/12,Need for improvement
+1061,2019/03/16,Very good
+1062,2019/03/12,Good
+1063,2019/03/23,Very good
+1064,2019/01/09,Very good
+1065,2019/02/07,Good
+1066,2019/02/08,Good
+1067,2019/03/16,Very good
+1068,2019/03/30,Need for improvement
+1069,2019/01/25,Need for improvement
+1070,2019/02/25,Good
+1071,2019/03/23,Very good
+1072,2019/01/07,Good
+1073,2019/01/09,Very good
+1074,2019/01/29,Very good
+1075,2019/02/27,Good
+1076,2019/02/01,Good
+1077,2019/01/13,Good
+1078,2019/01/04,Very good
+1079,2019/01/22,Very good
+1080,2019/03/18,Very good
+1081,2019/01/04,Good
+1082,2019/03/25,Need for improvement
+1083,2019/03/04,Good
+1084,2019/01/28,Good
+1085,2019/02/15,Need for improvement
+1086,2019/03/15,Very good
+1087,2019/03/18,Good
+1088,2019/02/28,Good
+1089,2019/03/24,Need for improvement
+1090,2019/01/12,Very good
+1091,2019/03/31,Good
+1092,2019/02/19,Good
+1093,2019/02/01,Good
+1094,2019/02/26,Good
+1095,2019/01/13,Good
+1096,2019/01/07,Need for improvement
+1097,2019/03/11,Very good
+1098,2019/01/25,Very good
+1099,2019/02/21,Good
+1100,2019/02/07,Good
+1101,2019/02/17,Need for improvement
+1102,2019/01/18,Need for improvement
+1103,2019/01/13,Very good
+1104,2019/03/16,Good
+1105,2019/02/15,Very good
+1106,2019/02/01,Very good
+1107,2019/02/09,Very good
+1108,2019/03/27,Need for improvement
+1109,2019/02/07,Need for improvement
+1110,2019/01/12,Need for improvement
+1111,2019/02/23,Good
+1112,2019/01/16,Very good
+1113,2019/01/28,Very good
+1114,2019/03/11,Very good
+1115,2019/01/26,Need for improvement
+1116,2019/03/07,Need for improvement
+1117,2019/03/10,Good
+1118,2019/01/18,Very good
+1119,2019/02/25,Good
+1120,2019/03/01,Good
+1121,2019/03/21,Need for improvement
+1122,2019/03/21,Need for improvement
+1123,2019/03/01,Need for improvement
+1124,2019/02/17,Very good
+1125,2019/02/10,Very good
+1126,2019/02/24,Need for improvement
+1127,2019/02/21,Good
+1128,2019/03/20,Good
+1129,2019/03/26,Need for improvement
+1130,2019/02/14,Need for improvement
+1131,2019/01/01,Good
+1132,2019/03/09,Need for improvement
+1133,2019/03/10,Very good
+1134,2019/03/08,Very good
+1135,2019/03/19,Good
+1136,2019/02/14,Good
+1137,2019/01/02,Very good
+1138,2019/03/30,Very good
+1139,2019/02/19,Very good
+1140,2019/03/29,Need for improvement
+1141,2019/03/11,Very good
+1142,2019/01/14,Good
+1143,2019/02/02,Good
+1144,2019/03/07,Very good
+1145,2019/03/25,Good
+1146,2019/01/09,Need for improvement
+1147,2019/03/05,Very good
+1148,2019/02/22,Very good
+1149,2019/01/31,Very good
+1150,2019/03/30,Good
+1151,2019/03/04,Good
+1152,2019/02/15,Need for improvement
+1153,2019/03/07,Need for improvement
+1154,2019/01/10,Very good
+1155,2019/02/02,Very good
+1156,2019/01/21,Very good
+1157,2019/01/11,Need for improvement
+1158,2019/02/20,Good
+1159,2019/03/31,Very good
+1160,2019/03/20,Good
+1161,2019/02/20,Good
+1162,2019/01/26,Need for improvement
+1163,2019/03/10,Very good
+1164,2019/02/06,Good
+1165,2019/03/21,Need for improvement
+1166,2019/01/03,Good
+1167,2019/03/15,Very good
+1168,2019/02/19,Very good
+1169,2019/02/10,Very good
+1170,2019/01/02,Need for improvement
+1171,2019/01/16,Very good
+1172,2019/02/25,Need for improvement
+1173,2019/03/22,Need for improvement
+1174,2019/01/29,Need for improvement
+1175,2019/01/21,Very good
+1176,2019/01/28,Good
+1177,2019/02/18,Very good
+1178,2019/02/02,Need for improvement
+1179,2019/03/30,Need for improvement
+1180,2019/03/25,Need for improvement
+1181,2019/01/31,Good
+1182,2019/02/19,Very good
+1183,2019/01/25,Need for improvement
+1184,2019/01/19,Need for improvement
+1185,2019/01/15,Very good
+1186,2019/02/15,Very good
+1187,2019/01/29,Very good
+1188,2019/02/28,Need for improvement
+1189,2019/03/18,Very good
+1190,2019/03/12,Very good
+1191,2019/02/16,Need for improvement
+1192,2019/03/24,Good
+1193,2019/01/25,Need for improvement
+1194,2019/03/09,Very good
+1195,2019/03/25,Very good
+1196,2019/03/11,Good
+1197,2019/03/10,Very good
+1198,2019/02/28,Need for improvement
+1199,2019/01/21,Good
+1200,2019/01/05,Need for improvement
+1201,2019/01/13,Need for improvement
+1202,2019/02/23,Good
+1203,2019/03/24,Very good
+1204,2019/01/25,Good
+1205,2019/02/27,Very good
+1206,2019/01/06,Need for improvement
+1207,2019/03/15,Good
+1208,2019/03/18,Good
+1209,2019/01/28,Very good
+1210,2019/02/10,Good
+1211,2019/03/17,Need for improvement
+1212,2019/03/06,Good
+1213,2019/01/02,Good
+1214,2019/03/01,Very good
+1215,2019/03/18,Very good
+1216,2019/02/09,Very good
+1217,2019/01/21,Good
+1218,2019/01/24,Very good
+1219,2019/02/24,Very good
+1220,2019/03/28,Very good
+1221,2019/01/29,Very good
+1222,2019/02/21,Very good
+1223,2019/02/24,Very good
+1224,2019/03/22,Good
+1225,2019/02/23,Need for improvement
+1226,2019/01/03,Need for improvement
+1227,2019/01/14,Very good
+1228,2019/01/10,Need for improvement
+1229,2019/03/12,Good
+1230,2019/01/18,Need for improvement
+1231,2019/01/02,Need for improvement
+1232,2019/03/20,Very good
+1233,2019/03/22,Good
+1234,2019/03/12,Very good
+1235,2019/03/08,Good
+1236,2019/01/14,Good
+1237,2019/03/23,Good
+1238,2019/03/21,Need for improvement
+1239,2019/01/22,Need for improvement
+1240,2019/02/03,Very good
+1241,2019/01/25,Need for improvement
+1242,2019/01/09,Good
+1243,2019/03/21,Very good
+1244,2019/01/16,Need for improvement
+1245,2019/01/11,Good
+1246,2019/01/31,Need for improvement
+1247,2019/01/12,Good
+1248,2019/01/01,Need for improvement
+1249,2019/01/05,Good
+1250,2019/03/03,Very good
+1251,2019/01/02,Very good
+1252,2019/02/05,Good
+1253,2019/03/10,Very good
+1254,2019/03/07,Good
+1255,2019/01/04,Need for improvement
+1256,2019/01/08,Good
+1257,2019/03/12,Need for improvement
+1258,2019/03/02,Good
+1259,2019/01/22,Very good
+1260,2019/01/04,Need for improvement
+1261,2019/03/15,Good
+1262,2019/03/26,Need for improvement
+1263,2019/02/28,Need for improvement
+1264,2019/03/01,Very good
+1265,2019/02/06,Very good
+1266,2019/03/28,Need for improvement
+1267,2019/01/24,Need for improvement
+1268,2019/01/22,Need for improvement
+1269,2019/01/25,Good
+1270,2019/02/04,Good
+1271,2019/01/16,Very good
+1272,2019/02/12,Good
+1273,2019/02/25,Good
+1274,2019/03/22,Very good
+1275,2019/01/03,Good
+1276,2019/03/13,Need for improvement
+1277,2019/01/03,Need for improvement
+1278,2019/01/27,Very good
+1279,2019/03/26,Good
+1280,2019/02/11,Very good
+1281,2019/02/12,Need for improvement
+1282,2019/02/25,Good
+1283,2019/02/16,Very good
+1284,2019/03/25,Good
+1285,2019/01/03,Very good
+1286,2019/02/05,Good
+1287,2019/02/09,Good
+1288,2019/01/19,Need for improvement
+1289,2019/03/11,Good
+1290,2019/01/09,Very good
+1291,2019/01/08,Very good
+1292,2019/01/11,Very good
+1293,2019/01/11,Very good
+1294,2019/03/30,Good
+1295,2019/02/04,Very good
+1296,2019/03/30,Need for improvement
+1297,2019/02/25,Need for improvement
+1298,2019/02/02,Very good
+1299,2019/01/24,Very good
+1300,2019/02/15,Need for improvement
+1301,2019/03/07,Good
+1302,2019/02/07,Good
+1303,2019/02/03,Need for improvement
+1304,2019/01/01,Very good
+1305,2019/01/02,Good
+1306,2019/01/06,Very good
+1307,2019/01/16,Good
+1308,2019/01/09,Very good
+1309,2019/03/29,Very good
+1310,2019/01/04,Need for improvement
+1311,2019/02/28,Need for improvement
+1312,2019/02/05,Very good
+1313,2019/03/20,Very good
+1314,2019/02/13,Need for improvement
+1315,2019/01/26,Good
+1316,2019/02/15,Good
+1317,2019/02/21,Good
+1318,2019/01/07,Good
+1319,2019/01/30,Good
+1320,2019/01/02,Need for improvement
+1321,2019/03/26,Need for improvement
+1322,2019/03/13,Need for improvement
+1323,2019/01/05,Very good
+1324,2019/03/10,Good
+1325,2019/03/14,Good
+1326,2019/01/01,Very good
+1327,2019/01/20,Good
+1328,2019/01/05,Good
+1329,2019/01/27,Very good
+1330,2019/01/06,Need for improvement
+1331,2019/01/01,Need for improvement
+1332,2019/02/21,Need for improvement
+1333,2019/01/18,Very good
+1334,2019/03/23,Very good
+1335,2019/02/25,Need for improvement
+1336,2019/01/22,Very good
+1337,2019/02/20,Very good
+1338,2019/03/17,Good
+1339,2019/01/02,Good
+1340,2019/02/16,Good
+1341,2019/01/25,Need for improvement
+1342,2019/03/29,Very good
+1343,2019/01/25,Need for improvement
+1344,2019/01/09,Good
+1345,2019/03/31,Good
+1346,2019/02/17,Need for improvement
+1347,2019/03/26,Need for improvement
+1348,2019/01/06,Need for improvement
+1349,2019/03/28,Need for improvement
+1350,2019/02/25,Good
+1351,2019/01/31,Good
+1352,2019/02/15,Very good
+1353,2019/02/12,Need for improvement
+1354,2019/01/03,Good
+1355,2019/01/16,Very good
+1356,2019/01/27,Need for improvement
+1357,2019/03/15,Good
+1358,2019/01/19,Good
+1359,2019/03/20,Good
+1360,2019/03/14,Good
+1361,2019/02/23,Need for improvement
+1362,2019/02/09,Need for improvement
+1363,2019/03/18,Very good
+1364,2019/01/27,Very good
+1365,2019/03/19,Need for improvement
+1366,2019/01/01,Good
+1367,2019/03/10,Very good
+1368,2019/01/04,Need for improvement
+1369,2019/03/13,Very good
+1370,2019/02/27,Very good
+1371,2019/02/19,Good
+1372,2019/01/03,Good
+1373,2019/01/30,Good
+1374,2019/01/25,Very good
+1375,2019/02/28,Good
+1376,2019/02/01,Need for improvement
+1377,2019/03/23,Need for improvement
+1378,2019/03/30,Very good
+1379,2019/01/18,Very good
+1380,2019/02/27,Good
+1381,2019/03/12,Very good
+1382,2019/01/02,Need for improvement
+1383,2019/02/18,Need for improvement
+1384,2019/03/02,Good
+1385,2019/02/14,Need for improvement
+1386,2019/01/02,Very good
+1387,2019/03/22,Very good
+1388,2019/02/27,Very good
+1389,2019/01/07,Need for improvement
+1390,2019/01/29,Good
+1391,2019/01/03,Very good
+1392,2019/03/03,Need for improvement
+1393,2019/01/02,Very good
+1394,2019/02/16,Good
+1395,2019/03/23,Good
+1396,2019/02/15,Good
+1397,2019/03/04,Good
+1398,2019/01/03,Very good
+1399,2019/03/06,Very good
+1400,2019/01/18,Need for improvement
+1401,2019/01/28,Good
+1402,2019/03/09,Need for improvement
+1403,2019/02/16,Good
+1404,2019/02/21,Good
+1405,2019/03/04,Need for improvement
+1406,2019/03/25,Very good
+1407,2019/03/21,Need for improvement
+1408,2019/02/23,Very good
+1409,2019/02/02,Very good
+1410,2019/01/07,Need for improvement
+1411,2019/03/03,Very good
+1412,2019/02/21,Need for improvement
+1413,2019/02/15,Very good
+1414,2019/02/26,Good
+1415,2019/01/05,Very good
+1416,2019/01/06,Good
+1417,2019/02/13,Very good
+1418,2019/03/17,Very good
+1419,2019/01/24,Need for improvement
+1420,2019/02/05,Very good
+1421,2019/01/27,Good
+1422,2019/03/23,Good
+1423,2019/03/23,Need for improvement
+1424,2019/02/11,Good
+1425,2019/02/05,Good
+1426,2019/02/27,Need for improvement
+1427,2019/01/29,Very good
+1428,2019/03/11,Very good
+1429,2019/03/31,Need for improvement
+1430,2019/01/08,Need for improvement
+1431,2019/03/14,Need for improvement
+1432,2019/01/14,Good
+1433,2019/01/17,Good
+1434,2019/02/09,Need for improvement
+1435,2019/01/12,Very good
+1436,2019/03/16,Good
+1437,2019/03/24,Good
+1438,2019/01/21,Good
+1439,2019/03/31,Very good
+1440,2019/03/18,Good
+1441,2019/01/29,Good
+1442,2019/03/29,Need for improvement
+1443,2019/03/01,Good
+1444,2019/03/23,Very good
+1445,2019/02/26,Very good
+1446,2019/02/11,Good
+1447,2019/03/02,Good
+1448,2019/03/31,Good
+1449,2019/03/02,Very good
+1450,2019/03/30,Need for improvement
+1451,2019/02/26,Good
+1452,2019/02/25,Need for improvement
+1453,2019/02/09,Very good
+1454,2019/03/04,Need for improvement
+1455,2019/01/08,Need for improvement
+1456,2019/03/14,Very good
+1457,2019/03/21,Very good
+1458,2019/03/12,Very good
+1459,2019/01/04,Good
+1460,2019/02/23,Good
+1461,2019/02/26,Need for improvement
+1462,2019/03/20,Need for improvement
+1463,2019/02/27,Need for improvement
+1464,2019/03/24,Good
+1465,2019/01/06,Need for improvement
+1466,2019/01/28,Very good
+1467,2019/03/29,Need for improvement
+1468,2019/02/10,Good
+1469,2019/03/05,Good
+1470,2019/03/15,Need for improvement
+1471,2019/03/23,Need for improvement
+1472,2019/01/16,Need for improvement
+1473,2019/02/04,Very good
+1474,2019/01/21,Need for improvement
+1475,2019/03/31,Good
+1476,2019/01/21,Very good
+1477,2019/01/27,Need for improvement
+1478,2019/03/20,Very good
+1479,2019/01/07,Very good
+1480,2019/02/28,Good
+1481,2019/01/03,Good
+1482,2019/02/05,Good
+1483,2019/03/22,Good
+1484,2019/01/20,Need for improvement
+1485,2019/03/24,Need for improvement
+1486,2019/02/21,Good
+1487,2019/01/26,Very good
+1488,2019/01/12,Need for improvement
+1489,2019/01/18,Very good
+1490,2019/03/30,Need for improvement
+1491,2019/03/11,Good
+1492,2019/03/22,Very good
+1493,2019/03/30,Need for improvement
+1494,2019/03/07,Need for improvement
+1495,2019/02/16,Very good
+1496,2019/03/09,Very good
+1497,2019/03/05,Need for improvement
+1498,2019/03/12,Good
+1499,2019/03/12,Need for improvement
+1500,2019/02/06,Need for improvement
+1501,2019/03/08,Good
+1502,2019/02/26,Need for improvement
+1503,2019/01/31,Need for improvement
+1504,2019/01/10,Very good
+1505,2019/01/26,Very good
+1506,2019/01/22,Very good
+1507,2019/03/31,Very good
+1508,2019/02/02,Very good
+1509,2019/01/27,Very good
+1510,2019/02/28,Need for improvement
+1511,2019/03/09,Very good
+1512,2019/02/16,Good
+1513,2019/03/25,Very good
+1514,2019/02/01,Good
+1515,2019/02/13,Good
+1516,2019/02/24,Good
+1517,2019/03/22,Need for improvement
+1518,2019/02/26,Very good
+1519,2019/01/02,Need for improvement
+1520,2019/02/22,Very good
+1521,2019/02/17,Need for improvement
+1522,2019/03/19,Good
+1523,2019/01/29,Need for improvement
+1524,2019/02/12,Very good
+1525,2019/01/01,Need for improvement
+1526,2019/03/24,Need for improvement
+1527,2019/03/18,Need for improvement
+1528,2019/02/21,Very good
+1529,2019/01/19,Good
+1530,2019/02/09,Need for improvement
+1531,2019/02/05,Good
+1532,2019/02/16,Good
+1533,2019/03/11,Good
+1534,2019/01/14,Very good
+1535,2019/01/22,Need for improvement
+1536,2019/01/16,Need for improvement
+1537,2019/02/26,Good
+1538,2019/03/28,Good
+1539,2019/03/24,Need for improvement
+1540,2019/03/06,Good
+1541,2019/02/09,Need for improvement
+1542,2019/02/10,Very good
+1543,2019/03/15,Good
+1544,2019/01/11,Need for improvement
+1545,2019/02/08,Very good
+1546,2019/02/22,Need for improvement
+1547,2019/01/05,Very good
+1548,2019/03/31,Good
+1549,2019/03/26,Very good
+1550,2019/01/03,Need for improvement
+1551,2019/02/07,Good
+1552,2019/02/12,Very good
+1553,2019/02/21,Good
+1554,2019/02/04,Very good
+1555,2019/01/01,Good
+1556,2019/02/27,Good
+1557,2019/01/01,Need for improvement
+1558,2019/01/31,Very good
+1559,2019/02/06,Need for improvement
+1560,2019/01/12,Good
+1561,2019/01/08,Very good
+1562,2019/03/07,Need for improvement
+1563,2019/02/09,Very good
+1564,2019/02/11,Good
+1565,2019/02/27,Very good
+1566,2019/02/07,Very good
+1567,2019/03/07,Need for improvement
+1568,2019/03/10,Very good
+1569,2019/03/16,Good
+1570,2019/01/24,Need for improvement
+1571,2019/02/10,Need for improvement
+1572,2019/02/18,Very good
+1573,2019/03/27,Need for improvement
+1574,2019/02/20,Need for improvement
+1575,2019/02/01,Very good
+1576,2019/03/25,Very good
+1577,2019/01/12,Need for improvement
+1578,2019/03/16,Good
+1579,2019/02/01,Very good
+1580,2019/02/15,Good
+1581,2019/03/07,Need for improvement
+1582,2019/03/31,Very good
+1583,2019/01/06,Very good
+1584,2019/02/03,Very good
+1585,2019/01/15,Very good
+1586,2019/03/11,Good
+1587,2019/02/11,Good
+1588,2019/01/07,Need for improvement
+1589,2019/02/07,Need for improvement
+1590,2019/01/17,Very good
+1591,2019/01/14,Very good
+1592,2019/02/08,Need for improvement
+1593,2019/02/17,Good
+1594,2019/03/22,Need for improvement
+1595,2019/01/30,Very good
+1596,2019/03/13,Good
+1597,2019/01/10,Good
+1598,2019/03/13,Need for improvement
+1599,2019/03/10,Very good
+1600,2019/03/12,Very good
+1601,2019/02/14,Need for improvement
+1602,2019/03/22,Need for improvement
+1603,2019/03/19,Need for improvement
+1604,2019/02/18,Need for improvement
+1605,2019/03/09,Good
+1606,2019/02/05,Good
+1607,2019/01/16,Good
+1608,2019/02/27,Good
+1609,2019/01/02,Very good
+1610,2019/01/11,Good
+1611,2019/01/17,Good
+1612,2019/01/19,Very good
+1613,2019/03/25,Good
+1614,2019/01/10,Very good
+1615,2019/02/23,Very good
+1616,2019/02/08,Need for improvement
+1617,2019/01/05,Need for improvement
+1618,2019/02/20,Need for improvement
+1619,2019/01/02,Very good
+1620,2019/01/19,Very good
+1621,2019/02/12,Good
+1622,2019/03/17,Good
+1623,2019/01/12,Need for improvement
+1624,2019/01/14,Good
+1625,2019/02/22,Good
+1626,2019/01/26,Good
+1627,2019/01/06,Need for improvement
+1628,2019/03/30,Need for improvement
+1629,2019/03/18,Good
+1630,2019/02/05,Need for improvement
+1631,2019/02/12,Need for improvement
+1632,2019/03/06,Need for improvement
+1633,2019/01/20,Very good
+1634,2019/03/20,Good
+1635,2019/03/30,Good
+1636,2019/03/12,Very good
+1637,2019/02/18,Good
+1638,2019/01/21,Need for improvement
+1639,2019/03/01,Need for improvement
+1640,2019/01/31,Need for improvement
+1641,2019/01/16,Very good
+1642,2019/03/03,Very good
+1643,2019/01/12,Good
+1644,2019/02/04,Good
+1645,2019/01/02,Good
+1646,2019/02/19,Need for improvement
+1647,2019/02/27,Need for improvement
+1648,2019/03/04,Need for improvement
+1649,2019/03/26,Very good
+1650,2019/03/19,Good
+1651,2019/02/10,Need for improvement
+1652,2019/02/14,Good
+1653,2019/03/27,Need for improvement
+1654,2019/03/19,Need for improvement
+1655,2019/02/24,Need for improvement
+1656,2019/02/08,Very good
+1657,2019/01/22,Very good
+1658,2019/02/25,Need for improvement
+1659,2019/01/15,Very good
+1660,2019/02/22,Good
+1661,2019/03/13,Good
+1662,2019/01/21,Good
+1663,2019/03/19,Very good
+1664,2019/01/06,Need for improvement
+1665,2019/01/12,Very good
+1666,2019/01/17,Need for improvement
+1667,2019/02/27,Good
+1668,2019/01/12,Very good
+1669,2019/01/29,Very good
+1670,2019/02/03,Very good
+1671,2019/01/10,Good
+1672,2019/03/19,Very good
+1673,2019/03/04,Good
+1674,2019/02/13,Good
+1675,2019/03/15,Need for improvement
+1676,2019/01/29,Need for improvement
+1677,2019/01/31,Good
+1678,2019/03/14,Good
+1679,2019/01/28,Good
+1680,2019/03/09,Need for improvement
+1681,2019/02/22,Very good
+1682,2019/02/25,Very good
+1683,2019/03/04,Good
+1684,2019/03/14,Good
+1685,2019/02/16,Need for improvement
+1686,2019/01/23,Very good
+1687,2019/03/08,Good
+1688,2019/02/09,Very good
+1689,2019/03/18,Need for improvement
+1690,2019/02/11,Very good
+1691,2019/02/03,Need for improvement
+1692,2019/02/11,Good
+1693,2019/02/26,Need for improvement
+1694,2019/03/01,Good
+1695,2019/02/14,Need for improvement
+1696,2019/01/24,Need for improvement
+1697,2019/01/09,Good
+1698,2019/02/13,Very good
+1699,2019/02/19,Good
+1700,2019/03/06,Very good
+1701,2019/01/11,Very good
+1702,2019/03/11,Need for improvement
+1703,2019/03/06,Good
+1704,2019/01/02,Good
+1705,2019/01/27,Good
+1706,2019/02/28,Good
+1707,2019/03/30,Need for improvement
+1708,2019/01/14,Good
+1709,2019/01/26,Good
+1710,2019/01/31,Need for improvement
+1711,2019/02/06,Good
+1712,2019/03/28,Need for improvement
+1713,2019/02/22,Good
+1714,2019/01/07,Need for improvement
+1715,2019/02/08,Need for improvement
+1716,2019/03/20,Need for improvement
+1717,2019/01/15,Very good
+1718,2019/01/11,Very good
+1719,2019/03/08,Good
+1720,2019/01/26,Need for improvement
+1721,2019/01/16,Need for improvement
+1722,2019/01/28,Very good
+1723,2019/02/15,Very good
+1724,2019/03/16,Need for improvement
+1725,2019/01/16,Very good
+1726,2019/01/26,Need for improvement
+1727,2019/03/19,Good
+1728,2019/03/05,Need for improvement
+1729,2019/01/06,Need for improvement
+1730,2019/03/22,Very good
+1731,2019/02/25,Good
+1732,2019/01/09,Need for improvement
+1733,2019/02/06,Need for improvement
+1734,2019/01/02,Very good
+1735,2019/03/10,Very good
+1736,2019/03/19,Good
+1737,2019/02/23,Need for improvement
+1738,2019/01/16,Need for improvement
+1739,2019/01/11,Very good
+1740,2019/01/05,Need for improvement
+1741,2019/02/20,Good
+1742,2019/02/27,Good
+1743,2019/03/10,Need for improvement
+1744,2019/02/15,Need for improvement
+1745,2019/01/30,Need for improvement
+1746,2019/03/29,Very good
+1747,2019/01/28,Good
+1748,2019/01/12,Very good
+1749,2019/03/10,Very good
+1750,2019/01/24,Good
+1751,2019/01/09,Good
+1752,2019/02/09,Very good
+1753,2019/02/06,Need for improvement
+1754,2019/01/26,Very good
+1755,2019/03/12,Very good
+1756,2019/02/03,Need for improvement
+1757,2019/02/04,Very good
+1758,2019/03/26,Very good
+1759,2019/03/29,Need for improvement
+1760,2019/01/14,Need for improvement
+1761,2019/03/23,Good
+1762,2019/03/01,Need for improvement
+1763,2019/03/27,Very good
+1764,2019/03/19,Need for improvement
+1765,2019/01/20,Need for improvement
+1766,2019/02/18,Good
+1767,2019/01/16,Good
+1768,2019/03/26,Good
+1769,2019/03/22,Very good
+1770,2019/01/24,Need for improvement
+1771,2019/02/10,Good
+1772,2019/03/19,Very good
+1773,2019/03/01,Need for improvement
+1774,2019/02/13,Good
+1775,2019/02/28,Good
+1776,2019/03/23,Good
+1777,2019/02/18,Good
+1778,2019/03/23,Good
+1779,2019/03/04,Very good
+1780,2019/02/13,Need for improvement
+1781,2019/02/10,Very good
+1782,2019/03/05,Need for improvement
+1783,2019/03/19,Need for improvement
+1784,2019/01/02,Very good
+1785,2019/03/13,Need for improvement
+1786,2019/03/01,Very good
+1787,2019/03/31,Good
+1788,2019/02/12,Very good
+1789,2019/03/31,Very good
+1790,2019/01/27,Very good
+1791,2019/03/30,Very good
+1792,2019/01/28,Need for improvement
+1793,2019/03/10,Need for improvement
+1794,2019/01/07,Need for improvement
+1795,2019/01/04,Need for improvement
+1796,2019/01/08,Very good
+1797,2019/03/08,Very good
+1798,2019/01/14,Good
+1799,2019/02/21,Very good
+1800,2019/01/13,Very good
+1801,2019/03/07,Good
+1802,2019/02/07,Very good
+1803,2019/01/25,Need for improvement
+1804,2019/01/01,Need for improvement
+1805,2019/01/10,Need for improvement
+1806,2019/03/28,Need for improvement
+1807,2019/03/27,Good
+1808,2019/03/21,Good
+1809,2019/02/12,Good
+1810,2019/02/20,Very good
+1811,2019/01/13,Need for improvement
+1812,2019/03/07,Good
+1813,2019/01/07,Good
+1814,2019/03/20,Good
+1815,2019/01/16,Good
+1816,2019/02/19,Good
+1817,2019/03/06,Good
+1818,2019/01/08,Good
+1819,2019/01/10,Need for improvement
+1820,2019/01/12,Good
+1821,2019/02/20,Very good
+1822,2019/02/03,Good
+1823,2019/02/15,Very good
+1824,2019/01/17,Very good
+1825,2019/01/15,Good
+1826,2019/02/03,Need for improvement
+1827,2019/03/21,Good
+1828,2019/01/01,Very good
+1829,2019/01/22,Good
+1830,2019/02/17,Good
+1831,2019/03/14,Need for improvement
+1832,2019/01/03,Good
+1833,2019/01/20,Good
+1834,2019/03/21,Need for improvement
+1835,2019/02/28,Very good
+1836,2019/03/16,Very good
+1837,2019/03/23,Need for improvement
+1838,2019/03/15,Very good
+1839,2019/03/24,Very good
+1840,2019/03/19,Very good
+1841,2019/02/25,Very good
+1842,2019/02/02,Good
+1843,2019/01/25,Very good
+1844,2019/02/24,Need for improvement
+1845,2019/01/02,Good
+1846,2019/01/27,Good
+1847,2019/03/03,Good
+1848,2019/01/23,Need for improvement
+1849,2019/02/13,Very good
+1850,2019/03/07,Good
+1851,2019/02/08,Need for improvement
+1852,2019/03/08,Good
+1853,2019/02/08,Very good
+1854,2019/01/17,Good
+1855,2019/01/06,Good
+1856,2019/01/21,Good
+1857,2019/02/11,Need for improvement
+1858,2019/02/12,Need for improvement
+1859,2019/03/29,Very good
+1860,2019/03/24,Very good
+1861,2019/01/20,Need for improvement
+1862,2019/01/24,Need for improvement
+1863,2019/03/19,Good
+1864,2019/03/14,Very good
+1865,2019/01/04,Very good
+1866,2019/01/24,Very good
+1867,2019/03/05,Very good
+1868,2019/02/02,Very good
+1869,2019/02/05,Very good
+1870,2019/01/08,Very good
+1871,2019/02/14,Good
+1872,2019/03/28,Need for improvement
+1873,2019/02/07,Need for improvement
+1874,2019/02/14,Need for improvement
+1875,2019/02/15,Need for improvement
+1876,2019/03/02,Very good
+1877,2019/01/08,Need for improvement
+1878,2019/03/17,Very good
+1879,2019/01/21,Very good
+1880,2019/02/27,Need for improvement
+1881,2019/02/17,Very good
+1882,2019/03/10,Good
+1883,2019/01/26,Need for improvement
+1884,2019/03/28,Good
+1885,2019/01/20,Need for improvement
+1886,2019/03/06,Very good
+1887,2019/01/16,Good
+1888,2019/03/19,Good
+1889,2019/01/25,Good
+1890,2019/02/07,Very good
+1891,2019/02/17,Need for improvement
+1892,2019/02/13,Need for improvement
+1893,2019/03/18,Need for improvement
+1894,2019/02/10,Very good
+1895,2019/02/21,Need for improvement
+1896,2019/03/04,Need for improvement
+1897,2019/03/18,Good
+1898,2019/01/19,Good
+1899,2019/02/08,Very good
+1900,2019/02/27,Good
+1901,2019/03/31,Need for improvement
+1902,2019/02/19,Need for improvement
+1903,2019/03/22,Need for improvement
+1904,2019/01/27,Very good
+1905,2019/02/22,Very good
+1906,2019/02/27,Need for improvement
+1907,2019/02/02,Very good
+1908,2019/02/03,Good
+1909,2019/01/11,Good
+1910,2019/02/10,Need for improvement
+1911,2019/02/25,Good
+1912,2019/03/21,Very good
+1913,2019/02/14,Good
+1914,2019/03/27,Very good
+1915,2019/01/24,Good
+1916,2019/02/16,Good
+1917,2019/01/18,Good
+1918,2019/02/15,Very good
+1919,2019/03/20,Need for improvement
+1920,2019/01/21,Good
+1921,2019/03/14,Very good
+1922,2019/01/12,Very good
+1923,2019/03/08,Need for improvement
+1924,2019/01/20,Need for improvement
+1925,2019/01/08,Good
+1926,2019/02/03,Need for improvement
+1927,2019/02/11,Good
+1928,2019/01/01,Very good
+1929,2019/02/04,Good
+1930,2019/01/22,Good
+1931,2019/03/12,Need for improvement
+1932,2019/02/25,Good
+1933,2019/03/12,Very good
+1934,2019/02/16,Need for improvement
+1935,2019/03/03,Need for improvement
+1936,2019/03/20,Need for improvement
+1937,2019/01/27,Very good
+1938,2019/01/04,Need for improvement
+1939,2019/01/26,Good
+1940,2019/02/25,Need for improvement
+1941,2019/01/21,Need for improvement
+1942,2019/03/20,Need for improvement
+1943,2019/02/27,Need for improvement
+1944,2019/01/31,Good
+1945,2019/01/05,Need for improvement
+1946,2019/02/11,Need for improvement
+1947,2019/03/12,Need for improvement
+1948,2019/01/16,Need for improvement
+1949,2019/02/24,Good
+1950,2019/01/27,Very good
+1951,2019/03/01,Need for improvement
+1952,2019/03/24,Need for improvement
+1953,2019/01/22,Need for improvement
+1954,2019/01/04,Good
+1955,2019/02/09,Good
+1956,2019/02/09,Need for improvement
+1957,2019/03/11,Very good
+1958,2019/03/19,Need for improvement
+1959,2019/02/09,Need for improvement
+1960,2019/03/01,Need for improvement
+1961,2019/03/11,Good
+1962,2019/01/09,Very good
+1963,2019/02/04,Very good
+1964,2019/02/16,Good
+1965,2019/02/02,Very good
+1966,2019/01/29,Very good
+1967,2019/03/15,Good
+1968,2019/02/06,Good
+1969,2019/03/05,Need for improvement
+1970,2019/03/02,Need for improvement
+1971,2019/02/18,Very good
+1972,2019/02/07,Good
+1973,2019/03/17,Need for improvement
+1974,2019/02/24,Need for improvement
+1975,2019/01/03,Need for improvement
+1976,2019/03/13,Very good
+1977,2019/01/05,Good
+1978,2019/01/18,Good
+1979,2019/01/18,Need for improvement
+1980,2019/02/09,Very good
+1981,2019/01/15,Very good
+1982,2019/01/02,Very good
+1983,2019/01/28,Very good
+1984,2019/01/01,Good
+1985,2019/03/05,Good
+1986,2019/03/06,Need for improvement
+1987,2019/03/16,Good
+1988,2019/03/09,Need for improvement
+1989,2019/03/28,Good
+1990,2019/03/20,Need for improvement
+1991,2019/01/26,Good
+1992,2019/01/29,Very good
+1993,2019/01/29,Good
+1994,2019/02/22,Good
+1995,2019/01/02,Good
+1996,2019/02/06,Very good
+1997,2019/03/02,Very good
+1998,2019/02/04,Very good
+1999,2019/01/09,Very good
+2000,2019/02/22,Good
+2001,2019/03/18,Very good
+2002,2019/02/24,Very good
+2003,2019/03/23,Good
+2004,2019/01/19,Very good
+2005,2019/03/31,Very good
+2006,2019/01/15,Very good
+2007,2019/01/06,Good
+2008,2019/01/18,Good
+2009,2019/03/29,Need for improvement
+2010,2019/03/22,Need for improvement
+2011,2019/02/10,Need for improvement
+2012,2019/01/29,Need for improvement
+2013,2019/01/07,Good
+2014,2019/01/10,Good
+2015,2019/03/24,Need for improvement
+2016,2019/03/01,Need for improvement
+2017,2019/02/18,Good
+2018,2019/03/03,Good
+2019,2019/01/06,Very good
+2020,2019/01/27,Good
+2021,2019/03/29,Good
+2022,2019/03/17,Need for improvement
+2023,2019/02/07,Very good
+2024,2019/01/12,Good
+2025,2019/01/01,Need for improvement
+2026,2019/03/18,Good
+2027,2019/03/12,Very good
+2028,2019/02/13,Good
+2029,2019/02/10,Very good
+2030,2019/02/05,Very good
+2031,2019/01/20,Very good
+2032,2019/03/28,Very good
+2033,2019/02/27,Good
+2034,2019/02/08,Good
+2035,2019/01/13,Need for improvement
+2036,2019/03/07,Need for improvement
+2037,2019/01/30,Good
+2038,2019/02/03,Very good
+2039,2019/03/13,Need for improvement
+2040,2019/01/16,Need for improvement
+2041,2019/01/02,Good
+2042,2019/01/17,Good
+2043,2019/02/19,Need for improvement
+2044,2019/02/02,Good
+2045,2019/02/02,Need for improvement
+2046,2019/01/17,Very good
+2047,2019/02/18,Need for improvement
+2048,2019/02/22,Very good
+2049,2019/01/07,Very good
+2050,2019/01/13,Good
+2051,2019/01/27,Very good
+2052,2019/03/30,Very good
+2053,2019/02/23,Very good
+2054,2019/03/20,Good
+2055,2019/03/22,Need for improvement
+2056,2019/01/17,Very good
+2057,2019/01/10,Good
+2058,2019/03/30,Need for improvement
+2059,2019/03/17,Good
+2060,2019/01/26,Need for improvement
+2061,2019/01/27,Very good
+2062,2019/02/04,Very good
+2063,2019/03/04,Need for improvement
+2064,2019/03/21,Need for improvement
+2065,2019/01/16,Good
+2066,2019/02/21,Need for improvement
+2067,2019/03/28,Good
+2068,2019/02/24,Need for improvement
+2069,2019/01/01,Need for improvement
+2070,2019/01/04,Good
+2071,2019/01/14,Very good
+2072,2019/03/08,Good
+2073,2019/02/06,Very good
+2074,2019/02/16,Good
+2075,2019/02/17,Very good
+2076,2019/03/09,Good
+2077,2019/01/09,Good
+2078,2019/03/19,Good
+2079,2019/01/01,Good
+2080,2019/02/10,Good
+2081,2019/02/21,Very good
+2082,2019/03/07,Very good
+2083,2019/03/09,Very good
+2084,2019/03/07,Very good
+2085,2019/03/07,Good
+2086,2019/03/17,Very good
+2087,2019/02/27,Very good
+2088,2019/01/18,Good
+2089,2019/03/29,Good
+2090,2019/01/29,Need for improvement
+2091,2019/02/18,Very good
+2092,2019/01/25,Good
+2093,2019/02/01,Need for improvement
+2094,2019/01/26,Good
+2095,2019/01/23,Good
+2096,2019/03/17,Good
+2097,2019/01/31,Need for improvement
+2098,2019/02/27,Good
+2099,2019/02/27,Very good
+2100,2019/03/21,Need for improvement
+2101,2019/03/24,Good
+2102,2019/01/11,Need for improvement
+2103,2019/03/24,Very good
+2104,2019/02/25,Good
+2105,2019/01/27,Good
+2106,2019/03/12,Very good
+2107,2019/01/18,Need for improvement
+2108,2019/01/15,Very good
+2109,2019/03/25,Need for improvement
+2110,2019/03/08,Need for improvement
+2111,2019/01/26,Very good
+2112,2019/01/27,Very good
+2113,2019/02/11,Very good
+2114,2019/01/24,Good
+2115,2019/01/31,Need for improvement
+2116,2019/03/08,Very good
+2117,2019/03/20,Very good
+2118,2019/03/26,Need for improvement
+2119,2019/03/22,Good
+2120,2019/03/16,Good
+2121,2019/03/08,Need for improvement
+2122,2019/02/13,Very good
+2123,2019/01/16,Need for improvement
+2124,2019/03/27,Very good
+2125,2019/02/19,Need for improvement
+2126,2019/02/04,Good
+2127,2019/01/22,Need for improvement
+2128,2019/02/15,Very good
+2129,2019/03/09,Very good
+2130,2019/01/03,Need for improvement
+2131,2019/03/26,Good
+2132,2019/01/19,Very good
+2133,2019/01/13,Very good
+2134,2019/03/13,Very good
+2135,2019/02/17,Need for improvement
+2136,2019/02/11,Need for improvement
+2137,2019/03/10,Need for improvement
+2138,2019/01/11,Very good
+2139,2019/01/11,Need for improvement
+2140,2019/01/08,Very good
+2141,2019/03/22,Very good
+2142,2019/03/28,Good
+2143,2019/03/17,Good
+2144,2019/02/22,Good
+2145,2019/01/30,Need for improvement
+2146,2019/02/16,Very good
+2147,2019/02/18,Good
+2148,2019/01/01,Need for improvement
+2149,2019/03/27,Good
+2150,2019/03/22,Very good
+2151,2019/03/02,Very good
+2152,2019/01/05,Need for improvement
+2153,2019/01/17,Very good
+2154,2019/02/10,Good
+2155,2019/02/22,Good
+2156,2019/02/16,Very good
+2157,2019/03/27,Very good
+2158,2019/03/02,Need for improvement
+2159,2019/01/14,Need for improvement
+2160,2019/02/05,Need for improvement
+2161,2019/01/06,Good
+2162,2019/03/07,Need for improvement
+2163,2019/03/10,Good
+2164,2019/03/15,Very good
+2165,2019/01/22,Very good
+2166,2019/01/09,Good
+2167,2019/03/31,Very good
+2168,2019/01/10,Very good
+2169,2019/02/24,Very good
+2170,2019/01/15,Very good
+2171,2019/02/11,Good
+2172,2019/01/09,Good
+2173,2019/01/23,Good
+2174,2019/02/02,Very good
+2175,2019/03/23,Good
+2176,2019/02/01,Very good
+2177,2019/03/27,Need for improvement
+2178,2019/02/24,Very good
+2179,2019/02/06,Need for improvement
+2180,2019/03/25,Good
+2181,2019/02/09,Good
+2182,2019/01/23,Need for improvement
+2183,2019/03/01,Need for improvement
+2184,2019/03/08,Need for improvement
+2185,2019/02/24,Very good
+2186,2019/01/31,Good
+2187,2019/03/01,Need for improvement
+2188,2019/01/04,Good
+2189,2019/03/20,Need for improvement
+2190,2019/01/21,Good
+2191,2019/01/10,Need for improvement
+2192,2019/01/12,Need for improvement
+2193,2019/03/25,Very good
+2194,2019/01/31,Very good
+2195,2019/02/27,Very good
+2196,2019/03/01,Need for improvement
+2197,2019/01/01,Good
+2198,2019/03/22,Good
+2199,2019/03/04,Good
+2200,2019/03/25,Good
+2201,2019/03/16,Very good
+2202,2019/03/14,Good
+2203,2019/01/24,Very good
+2204,2019/03/03,Very good
+2205,2019/03/14,Good
+2206,2019/01/23,Very good
+2207,2019/03/26,Very good
+2208,2019/02/13,Very good
+2209,2019/02/22,Good
+2210,2019/03/01,Need for improvement
+2211,2019/03/16,Need for improvement
+2212,2019/03/08,Need for improvement
+2213,2019/01/01,Need for improvement
+2214,2019/03/18,Good
+2215,2019/01/13,Need for improvement
+2216,2019/03/19,Very good
+2217,2019/03/02,Good
+2218,2019/02/13,Good
+2219,2019/01/21,Need for improvement
+2220,2019/02/28,Good
+2221,2019/01/08,Need for improvement
+2222,2019/03/01,Very good
+2223,2019/02/16,Good
+2224,2019/03/08,Very good
+2225,2019/01/09,Very good
+2226,2019/03/26,Very good
+2227,2019/01/31,Good
+2228,2019/01/11,Good
+2229,2019/02/09,Good
+2230,2019/03/04,Good
+2231,2019/03/17,Good
+2232,2019/01/07,Very good
+2233,2019/03/06,Good
+2234,2019/03/16,Good
+2235,2019/01/05,Need for improvement
+2236,2019/01/11,Need for improvement
+2237,2019/01/15,Very good
+2238,2019/02/27,Good
+2239,2019/03/19,Good
+2240,2019/02/11,Very good
+2241,2019/03/23,Good
+2242,2019/02/05,Need for improvement
+2243,2019/03/24,Good
+2244,2019/02/01,Good
+2245,2019/02/25,Good
+2246,2019/03/29,Need for improvement
+2247,2019/01/03,Good
+2248,2019/01/30,Good
+2249,2019/01/27,Very good
+2250,2019/02/08,Very good
+2251,2019/03/26,Very good
+2252,2019/02/28,Good
+2253,2019/03/06,Good
+2254,2019/02/06,Very good
+2255,2019/01/20,Very good
+2256,2019/03/26,Need for improvement
+2257,2019/03/10,Good
+2258,2019/02/03,Good
+2259,2019/01/11,Good
+2260,2019/03/03,Need for improvement
+2261,2019/02/04,Good
+2262,2019/02/28,Good
+2263,2019/01/03,Need for improvement
+2264,2019/02/06,Need for improvement
+2265,2019/01/19,Very good
+2266,2019/03/24,Good
+2267,2019/01/13,Need for improvement
+2268,2019/01/14,Good
+2269,2019/02/25,Very good
+2270,2019/03/09,Very good
+2271,2019/01/20,Good
+2272,2019/02/12,Need for improvement
+2273,2019/03/12,Need for improvement
+2274,2019/01/05,Need for improvement
+2275,2019/01/20,Good
+2276,2019/01/24,Need for improvement
+2277,2019/01/12,Need for improvement
+2278,2019/01/15,Very good
+2279,2019/02/21,Very good
+2280,2019/01/01,Good
+2281,2019/02/16,Need for improvement
+2282,2019/02/17,Good
+2283,2019/02/12,Very good
+2284,2019/02/01,Good
+2285,2019/01/17,Need for improvement
+2286,2019/03/24,Good
+2287,2019/02/22,Good
+2288,2019/02/21,Need for improvement
+2289,2019/02/19,Good
+2290,2019/02/03,Good
+2291,2019/01/11,Need for improvement
+2292,2019/02/12,Need for improvement
+2293,2019/03/25,Very good
+2294,2019/02/17,Good
+2295,2019/01/07,Very good
+2296,2019/03/25,Very good
+2297,2019/01/05,Need for improvement
+2298,2019/01/01,Very good
+2299,2019/02/25,Need for improvement
+2300,2019/03/03,Very good
+2301,2019/02/06,Need for improvement
+2302,2019/03/18,Good
+2303,2019/03/07,Need for improvement
+2304,2019/02/23,Very good
+2305,2019/02/21,Good
+2306,2019/01/01,Very good
+2307,2019/01/31,Very good
+2308,2019/01/25,Need for improvement
+2309,2019/03/16,Need for improvement
+2310,2019/01/17,Need for improvement
+2311,2019/03/27,Need for improvement
+2312,2019/03/13,Very good
+2313,2019/03/01,Very good
+2314,2019/02/06,Need for improvement
+2315,2019/01/01,Good
+2316,2019/02/02,Good
+2317,2019/02/06,Need for improvement
+2318,2019/02/26,Good
+2319,2019/02/24,Need for improvement
+2320,2019/01/19,Need for improvement
+2321,2019/01/08,Good
+2322,2019/01/10,Good
+2323,2019/01/06,Good
+2324,2019/02/19,Good
+2325,2019/02/16,Very good
+2326,2019/01/17,Good
+2327,2019/03/31,Need for improvement
+2328,2019/02/28,Very good
+2329,2019/03/23,Very good
+2330,2019/03/27,Good
+2331,2019/02/20,Good
+2332,2019/03/14,Good
+2333,2019/03/22,Good
+2334,2019/02/16,Very good
+2335,2019/03/21,Good
+2336,2019/01/12,Very good
+2337,2019/02/06,Very good
+2338,2019/01/10,Need for improvement
+2339,2019/01/22,Need for improvement
+2340,2019/02/11,Very good
+2341,2019/01/03,Very good
+2342,2019/03/01,Good
+2343,2019/02/28,Good
+2344,2019/01/21,Good
+2345,2019/01/26,Good
+2346,2019/03/09,Need for improvement
+2347,2019/02/16,Good
+2348,2019/02/24,Need for improvement
+2349,2019/01/21,Need for improvement
+2350,2019/03/04,Good
+2351,2019/03/23,Very good
+2352,2019/03/03,Need for improvement
+2353,2019/03/14,Need for improvement
+2354,2019/03/19,Very good
+2355,2019/01/22,Very good
+2356,2019/01/29,Need for improvement
+2357,2019/02/17,Need for improvement
+2358,2019/01/30,Good
+2359,2019/03/09,Good
+2360,2019/01/06,Need for improvement
+2361,2019/03/04,Good
+2362,2019/03/27,Very good
+2363,2019/01/15,Need for improvement
+2364,2019/01/13,Good
+2365,2019/01/10,Good
+2366,2019/01/13,Very good
+2367,2019/02/01,Good
+2368,2019/03/22,Need for improvement
+2369,2019/01/26,Need for improvement
+2370,2019/01/06,Good
+2371,2019/02/10,Good
+2372,2019/02/28,Need for improvement
+2373,2019/02/05,Need for improvement
+2374,2019/01/28,Need for improvement
+2375,2019/03/28,Good
+2376,2019/01/23,Good
+2377,2019/03/16,Need for improvement
+2378,2019/01/14,Very good
+2379,2019/01/30,Good
+2380,2019/02/18,Very good
+2381,2019/01/20,Very good
+2382,2019/02/28,Need for improvement
+2383,2019/02/11,Need for improvement
+2384,2019/02/20,Need for improvement
+2385,2019/02/05,Need for improvement
+2386,2019/02/09,Very good
+2387,2019/01/24,Good
+2388,2019/02/27,Need for improvement
+2389,2019/03/17,Need for improvement
+2390,2019/01/17,Need for improvement
+2391,2019/02/08,Need for improvement
+2392,2019/02/25,Good
+2393,2019/03/02,Very good
+2394,2019/03/22,Very good
+2395,2019/01/06,Very good
+2396,2019/03/13,Very good
+2397,2019/03/13,Need for improvement
+2398,2019/03/19,Very good
+2399,2019/01/20,Good
+2400,2019/01/17,Good
+2401,2019/03/06,Need for improvement
+2402,2019/02/13,Need for improvement
+2403,2019/01/24,Good
+2404,2019/03/12,Good
+2405,2019/03/03,Good
+2406,2019/03/07,Good
+2407,2019/02/19,Very good
+2408,2019/02/22,Need for improvement
+2409,2019/03/06,Good
+2410,2019/02/25,Need for improvement
+2411,2019/01/22,Good
+2412,2019/01/01,Good
+2413,2019/02/14,Very good
+2414,2019/01/29,Very good
+2415,2019/02/11,Good
+2416,2019/01/12,Very good
+2417,2019/01/22,Need for improvement
+2418,2019/03/03,Very good
+2419,2019/01/09,Good
+2420,2019/03/25,Very good
+2421,2019/03/20,Good
+2422,2019/02/01,Good
+2423,2019/02/17,Need for improvement
+2424,2019/01/18,Need for improvement
+2425,2019/01/30,Very good
+2426,2019/03/16,Need for improvement
+2427,2019/01/25,Good
+2428,2019/03/31,Need for improvement
+2429,2019/03/30,Very good
+2430,2019/01/17,Good
+2431,2019/03/08,Good
+2432,2019/01/10,Need for improvement
+2433,2019/02/14,Need for improvement
+2434,2019/02/05,Very good
+2435,2019/01/05,Good
+2436,2019/03/20,Good
+2437,2019/01/26,Very good
+2438,2019/02/14,Very good
+2439,2019/01/29,Very good
+2440,2019/03/15,Very good
+2441,2019/01/24,Good
+2442,2019/01/02,Good
+2443,2019/01/10,Need for improvement
+2444,2019/02/04,Need for improvement
+2445,2019/03/12,Good
+2446,2019/01/13,Very good
+2447,2019/03/17,Very good
+2448,2019/03/04,Very good
+2449,2019/01/06,Good
+2450,2019/01/16,Need for improvement
+2451,2019/02/22,Very good
+2452,2019/01/17,Good
+2453,2019/01/13,Good
+2454,2019/03/24,Very good
+2455,2019/01/02,Need for improvement
+2456,2019/02/11,Good
+2457,2019/02/01,Need for improvement
+2458,2019/01/13,Need for improvement
+2459,2019/01/20,Very good
+2460,2019/01/13,Very good
+2461,2019/01/04,Need for improvement
+2462,2019/01/15,Good
+2463,2019/03/01,Good
+2464,2019/03/27,Need for improvement
+2465,2019/03/02,Good
+2466,2019/01/01,Need for improvement
+2467,2019/01/05,Need for improvement
+2468,2019/01/18,Very good
+2469,2019/02/10,Very good
+2470,2019/01/14,Need for improvement
+2471,2019/01/02,Need for improvement
+2472,2019/02/03,Very good
+2473,2019/02/17,Need for improvement
+2474,2019/02/02,Very good
+2475,2019/02/07,Need for improvement
+2476,2019/01/28,Very good
+2477,2019/01/20,Good
+2478,2019/03/29,Need for improvement
+2479,2019/03/20,Good
+2480,2019/01/01,Very good
+2481,2019/03/22,Need for improvement
+2482,2019/01/24,Very good
+2483,2019/02/04,Good
+2484,2019/01/05,Very good
+2485,2019/01/25,Very good
+2486,2019/02/15,Good
+2487,2019/03/30,Need for improvement
+2488,2019/02/23,Very good
+2489,2019/03/01,Need for improvement
+2490,2019/02/28,Need for improvement
+2491,2019/03/06,Need for improvement
+2492,2019/01/25,Good
+2493,2019/03/08,Need for improvement
+2494,2019/01/25,Very good
+2495,2019/02/23,Very good
+2496,2019/01/31,Good
+2497,2019/02/17,Need for improvement
+2498,2019/02/03,Need for improvement
+2499,2019/01/09,Good
+2500,2019/03/03,Good

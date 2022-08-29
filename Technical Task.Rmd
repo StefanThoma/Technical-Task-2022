@@ -1,0 +1,316 @@
+---
+title: "Technical Task - predict dropout of digital trainings"
+author: "Stefan P. Thoma"
+date: '2022-08-29'
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r label, out.width = "85%", fig.cap = "caption"}
+knitr::include_graphics("candidate task.pdf")
+```
+
+
+# Setup
+Here we load packages and set some parameters for this project.
+```{r}
+# First, we load packages we need
+pacman::p_load("tidyverse", # keeps code tidy 
+               "glmnet", # let's us compute lasso / ridge regressions
+               "performance", # check model validity
+               "InformationValue", # for the optimal cutoff
+               "verification",# for the ROC curves
+               "caret") 
+
+# makes the results reproducible
+set.seed(8725104)
+```
+
+## Load data
+
+```{r}
+employee <- read_csv("data/employee.csv")
+performance <- read_csv("data/performance.csv")
+```
+Here I have a first look at the data, mostly to determine how to combine the two datasets. I would probably not include this step in a "real" project, but I left it in to better demonstrate my process.
+```{r}
+head(employee)
+head(performance)
+```
+
+## Interpretation of the columns
+
+**employee**
+
+`training_completed` The variable we want to predict: Was the training completed? 1 is yes, 0 is no. Categorical
+
+`business_division` Describes in which business_division an employee works. Categorical
+
+`department` Describes in which department an employee works. Categorical
+
+`engagement_score` Measures engagement in class. Metric
+
+`tenure` How long an employee has worked for CS. Metric
+
+`leadership_score` Measures leadership quality. Metric
+
+`overtime` How much overtime an employee has accumulated in hours. Metric
+
+`incidents` Counts number of incidents (not sure of what kind). Metric / Count
+
+`duration_elearning` Time spent with online class materials (outside of class), likely in minutes. Metric
+
+`time_in_title` Not sure
+
+`delta_trainings_last_year` Not sure, sounds like a difference of something
+
+`risk_of_leaving` Continuous value between 0 and 1 representing the probability of an employee leaving the company.
+
+`leadership_score2` Maybe a transformation of `leadership_score`, maybe a different aspect
+
+`date` Date of data collection
+
+`id` Employee identifyer. Categorical
+
+
+
+**performance**
+
+`id` Employee identifyer. Categorical
+
+`date` date of performance measure
+
+`rating` measure of work performance of employee. Categorical
+
+## Bind dataframes and split into test and train
+
+```{r}
+# first, we rename the `date` column
+
+performance <- performance %>% rename(
+  date_performance = date
+)
+
+# now bind the dataframes together
+
+class_data <- merge(employee, performance, # the two df's to be merged
+                    by = "id",# the employee identifyer for the merge
+                    all = TRUE) # should we keep ids that do not appear in `performance`?
+```
+
+
+
+
+Let's build a test and training set with a 25:75 split:
+```{r}
+# percentage of training data
+perc_train <- .75
+
+train_ids <- sample(class_data$id, 
+                    size =  floor(nrow(class_data)*perc_train),
+                    replace = FALSE)
+
+# create test and train dataframes
+train_data <- class_data %>% filter(id %in% train_ids)
+test_data <- class_data %>% filter(!id %in% train_ids)
+```
+
+# Explore and prepare
+The first step is to look at the correlation plot. 
+With so many variables it would be difficult to see in this document.
+I did look at it in a high resolution version and I do not include it here.
+
+
+```{r}
+head(train_data)
+summary(train_data)
+```
+
+It looks like `date` and `date_performance` are the same, let's confirm this.
+Also, we check what's the difference between leadership score and leadership score 2.
+We also want to replace the NAs of the ratings (where we don't know the rating). 
+I replaced it here with the character "NA", so it will be modeled like an additional category. 
+Some modeling funcitons would otherwise discard the rows with missing entries.
+
+Alternatively, we could model and predict the missing ratings based on the other variables. 
+
+```{r}
+summary(train_data$date == train_data$date_performance)
+# Yep
+cor(train_data$leadership_score, train_data$leadership_score2)
+# looks like one is just a transformation of the other.
+
+```
+
+Further, the data type of some columns do not correspond to the data type that seems sensible.
+
+Let's build a function to fix these aspects. 
+This will allow us to treat the test data the same way later.
+
+
+```{r}
+clean_data <- function(dat){
+  
+dat <- dat %>% dplyr::select(-date_performance, -leadership_score2) %>%
+  mutate(rating = ifelse(is.na(rating), "NA", rating )) %>%
+  mutate(across(c("training_completed", "business_division", "department", "rating"),
+                as_factor))
+
+return(dat)
+}
+
+
+```
+
+Clean training data
+```{r}
+train_data <- clean_data(train_data)
+```
+
+For `glmnet` we need a slightly different format:
+```{r}
+#train_data
+train_x <- model.matrix(data = train_data, training_completed ~ . - id)
+train_y <- train_data$training_completed
+```
+
+# Build model
+
+
+First a simple glm model to check predictors:
+
+```{r}
+glm_model <- glm(training_completed ~. -id, family = "binomial", data = train_data)
+
+summary(glm_model)
+
+check_model(glm_model)
+```
+`risk_of_leaving` and `leadership_score` have the highest VIFs.
+This does not influence the prediction quality but may have an impact on which predictors become significant.
+
+This model is well suited to figure out which predictors carry weight. 
+We can easily identify the six variables with the highest z-scores:
+
+```{r}
+data.frame(summary(glm_model)$coefficients) %>% 
+  filter(abs(z.value)>5) %>%
+  arrange(desc(abs(z.value)))
+```
+
+To predict unobserved cases I would use a regularized version of glm, e.g. a lasso glm. 
+The lasso regression will detect the relevant variables and set the coefficients of all others to 0. 
+However, one should be aware of collinear predictors.
+
+```{r}
+# Fit cross validation to figure out best possible lamdba parameter
+lasso_cv <- cv.glmnet(y = train_y, x = train_x, family = "binomial",  alpha = 1)
+
+# extract lambda
+lambda <- lasso_cv$lambda[which.min(lasso_cv$cvm)]
+
+# Fit final model
+lasso_model <- glmnet(y = train_y, x = train_x, family = "binomial", lambda = lambda, alpha = 1)
+
+# display estimated coefficients 
+coef(lasso_model)
+```
+
+
+# Predict and evaluate
+
+First, we treat the `test_data` the same way we treated the `train_data`:
+
+```{r}
+test_data <- clean_data(test_data)
+
+
+# test data
+test_x <- model.matrix(data = test_data, training_completed ~ . - id)
+test_y <- test_data$training_completed
+```
+
+Now we predict on the unseen test data to evaluate model performance
+
+```{r}
+glm_pred <- predict(glm_model, newdata = test_data, type = "response")
+lasso_pred <- predict(lasso_model, newx = test_x, type = "response")
+
+
+test_data <- test_data %>% mutate(
+  glm_pred = as.numeric(glm_pred),
+  lasso_pred = as.numeric(lasso_pred),
+  training_completed = as.numeric(training_completed)-1
+)
+```
+
+
+## model performance
+
+The most informative performance measure is the ROC plot, and the AUC:
+```{r}
+roc.plot(test_data$training_completed, pred = cbind(test_data$glm_pred, test_data$lasso_pred), legend = TRUE, leg.text = c("glm", "lasso"))
+```
+
+Here I extract more performance measures, such as accuracy and the confusion matrix:
+```{r}
+
+optimal_glm <- optimalCutoff(test_data$training_completed, test_data$glm_pred)
+optimal_lasso <- optimalCutoff(test_data$training_completed, test_data$lasso_pred)
+
+test_data <- test_data %>% mutate(
+  glm_prediction = ifelse(glm_pred>optimal_glm, 1, 0),
+  lasso_prediction = ifelse(lasso_pred>optimal_lasso, 1, 0)
+)
+
+
+# glm
+confusionMatrix(as_factor(test_data$training_completed), as_factor(test_data$glm_prediction))
+
+# lasso
+confusionMatrix(as_factor(test_data$training_completed), as_factor(test_data$lasso_prediction))
+```
+
+
+# Conclusion
+The models were validated on unseen (test) data. 
+This means that the model performance reported should reflect real world performance as good as possible. 
+
+For both models we get a prediction accuracy of around 86% with which we can identify around 83% of employees who did not finish the class.
+Of the 876 employees who did finish the class only around 13% were misclassified as abandoning the class.
+These predictions were based on the cutoff of around 40% probability which optimises the accuracy. 
+
+Both the lasso and the glm model showed a high AUC of around .93, further substantiating the model quality. 
+
+
+There were nine predictors with a significant effect on the dropout probability. 
+However, six of them stood out as strong predictors with a much larger z score. 
+The most influential predictors:
+
+`duration_elearning`: The longer the duration, the less likely to finish.
+`delta_trainings_last_year`: Higher delta means less likely to finish.
+`time_in_title`: More time in title means more likely to finish. 
+`risk_of_leaving`: Apparently, higher risk of leaving is associated with a higher chance of finishing.
+`engagement_score`: High engagement means more likely to finish
+`leadership_score`: higher score means less likely to finish.
+
+
+The results of `time_in_title` and `risk_of_leaving` are difficult to explain, as I am not sure what `time_in_title` represents.
+The effect of `risk_of_leaving` seems unintuitive to me.
+
+
+**Improvements**
+
+I did not take a clear look at the variables `business_division` and `department`, which would have to be tested via model comparison. 
+They did not appear to have a large influence. 
+The seemingly hierarchical structure of the two variables would likely warrant a hierarchical modeling approach, at least for the departments (as there are I think 9).
+In that scenario I might discard the `business_division` completely.
+
+Further, a transformation of some variables to reduce collinearity of the predictors might be in order.
+
+If the prediction would be the main goal, a random forest approach may yield even better results and should be considered for this task. 
+
+
