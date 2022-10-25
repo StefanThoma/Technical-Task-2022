@@ -31,13 +31,11 @@ employee <- read_csv("data/employee.csv")
 ```
 
     ## Rows: 5000 Columns: 15
-
     ## ── Column specification ────────────────────────────────────────────────────────
     ## Delimiter: ","
     ## chr   (2): business_division, department
     ## dbl  (12): training_completed, engagement_score, tenure, leadership_score, o...
     ## date  (1): date
-
     ## 
     ## ℹ Use `spec()` to retrieve the full column specification for this data.
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
@@ -47,13 +45,11 @@ performance <- read_csv("data/performance.csv")
 ```
 
     ## Rows: 2500 Columns: 3
-
     ## ── Column specification ────────────────────────────────────────────────────────
     ## Delimiter: ","
     ## chr  (1): rating
     ## dbl  (1): id
     ## date (1): date
-
     ## 
     ## ℹ Use `spec()` to retrieve the full column specification for this data.
     ## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
@@ -67,18 +63,19 @@ head(employee)
 ```
 
     ## # A tibble: 6 × 15
-    ##   training_completed business_division department engagement_score tenure
-    ##                <dbl> <chr>             <chr>                 <dbl>  <dbl>
-    ## 1                  1 WM                GHL                       3     16
-    ## 2                  1 WM                GHL                       4     11
-    ## 3                  1 SB                GLI                       4      9
-    ## 4                  1 SB                GHL                       2     12
-    ## 5                  1 IB                AML                       3     10
-    ## 6                  1 WM                HDO                       4     17
-    ## # … with 10 more variables: leadership_score <dbl>, overtime <dbl>,
-    ## #   incidents <dbl>, duration_elearning <dbl>, time_in_title <dbl>,
-    ## #   delta_trainings_last_year <dbl>, risk_of_leaving <dbl>,
-    ## #   leadership_score2 <dbl>, date <date>, id <dbl>
+    ##   train…¹ busin…² depar…³ engag…⁴ tenure leade…⁵ overt…⁶ incid…⁷ durat…⁸ time_…⁹
+    ##     <dbl> <chr>   <chr>     <dbl>  <dbl>   <dbl>   <dbl>   <dbl>   <dbl>   <dbl>
+    ## 1       1 WM      GHL           3     16    6.13      29       1     113      15
+    ## 2       1 WM      GHL           4     11    5.63      41       1      91      21
+    ## 3       1 SB      GLI           4      9    5.95      41       2     136       6
+    ## 4       1 SB      GHL           2     12    6.90      47       2      99      10
+    ## 5       1 IB      AML           3     10    5.04      47       1     142      15
+    ## 6       1 WM      HDO           4     17    3.51      53       1     162      23
+    ## # … with 5 more variables: delta_trainings_last_year <dbl>,
+    ## #   risk_of_leaving <dbl>, leadership_score2 <dbl>, date <date>, id <dbl>, and
+    ## #   abbreviated variable names ¹​training_completed, ²​business_division,
+    ## #   ³​department, ⁴​engagement_score, ⁵​leadership_score, ⁶​overtime, ⁷​incidents,
+    ## #   ⁸​duration_elearning, ⁹​time_in_title
 
 ``` r
 head(performance)
@@ -295,12 +292,27 @@ Let’s build a function to fix these aspects. This will allow us to treat
 the test data the same way later.
 
 ``` r
+names(test_data)
+```
+
+    ##  [1] "id"                        "training_completed"       
+    ##  [3] "business_division"         "department"               
+    ##  [5] "engagement_score"          "tenure"                   
+    ##  [7] "leadership_score"          "overtime"                 
+    ##  [9] "incidents"                 "duration_elearning"       
+    ## [11] "time_in_title"             "delta_trainings_last_year"
+    ## [13] "risk_of_leaving"           "leadership_score2"        
+    ## [15] "date"                      "date_performance"         
+    ## [17] "rating"
+
+``` r
 clean_data <- function(dat){
   
 dat <- dat %>% dplyr::select(-date_performance, -leadership_score2) %>%
   mutate(rating = ifelse(is.na(rating), "NA", rating )) %>%
   mutate(across(c("training_completed", "business_division", "department", "rating"),
-                as_factor))
+                as_factor)) %>%
+  mutate(across(.cols = c("engagement_score", "tenure", "leadership_score", "overtime", "incidents", "duration_elearning", "time_in_title", "delta_trainings_last_year", "risk_of_leaving"), scale))
 
 return(dat)
 }
@@ -341,32 +353,32 @@ summary(glm_model)
     ## 
     ## Coefficients:
     ##                             Estimate Std. Error z value Pr(>|z|)    
-    ## (Intercept)               -2.4015927 37.5974371  -0.064   0.9491    
-    ## business_divisionSB       -0.2299118  0.1505415  -1.527   0.1267    
-    ## business_divisionIB        0.1364435  0.1518916   0.898   0.3690    
-    ## business_divisionAM        0.0255649  0.1542544   0.166   0.8684    
-    ## departmentGLI             -0.0034856  0.2429113  -0.014   0.9886    
-    ## departmentAML             -0.0339047  0.2399214  -0.141   0.8876    
-    ## departmentNAP             -0.1680798  0.2457670  -0.684   0.4940    
-    ## departmentZEF             -0.2445837  0.2446147  -1.000   0.3174    
-    ## departmentADC              0.5013891  0.2502522   2.004   0.0451 *  
-    ## departmentPOR              0.0500436  0.2420030   0.207   0.8362    
-    ## departmentQHA              0.1449367  0.2404794   0.603   0.5467    
-    ## departmentHDO              0.1676399  0.2481027   0.676   0.4992    
-    ## departmentABD             -0.0512322  0.2392612  -0.214   0.8304    
-    ## engagement_score           0.7909186  0.1079666   7.326 2.38e-13 ***
-    ## tenure                    -0.1542577  0.0381923  -4.039 5.37e-05 ***
-    ## leadership_score          -0.5536432  0.1092822  -5.066 4.06e-07 ***
-    ## overtime                   0.0086656  0.0045298   1.913   0.0557 .  
-    ## incidents                 -0.6790155  0.1570236  -4.324 1.53e-05 ***
-    ## duration_elearning        -0.0827849  0.0036593 -22.623  < 2e-16 ***
-    ## time_in_title              0.1295752  0.0130666   9.917  < 2e-16 ***
-    ## delta_trainings_last_year -1.0707947  0.1114345  -9.609  < 2e-16 ***
-    ## risk_of_leaving            8.8295917  1.0027509   8.805  < 2e-16 ***
-    ## date                       0.0008469  0.0020936   0.404   0.6859    
-    ## ratingGood                -0.1038501  0.1876179  -0.554   0.5799    
-    ## ratingVery good            0.0733289  0.1893098   0.387   0.6985    
-    ## ratingNA                   0.0475219  0.1587958   0.299   0.7647    
+    ## (Intercept)               -1.342e+01  3.756e+01  -0.357   0.7209    
+    ## business_divisionSB       -2.299e-01  1.505e-01  -1.527   0.1267    
+    ## business_divisionIB        1.364e-01  1.519e-01   0.898   0.3690    
+    ## business_divisionAM        2.556e-02  1.543e-01   0.166   0.8684    
+    ## departmentGLI             -3.486e-03  2.429e-01  -0.014   0.9886    
+    ## departmentAML             -3.390e-02  2.399e-01  -0.141   0.8876    
+    ## departmentNAP             -1.681e-01  2.458e-01  -0.684   0.4940    
+    ## departmentZEF             -2.446e-01  2.446e-01  -1.000   0.3174    
+    ## departmentADC              5.014e-01  2.503e-01   2.004   0.0451 *  
+    ## departmentPOR              5.004e-02  2.420e-01   0.207   0.8362    
+    ## departmentQHA              1.449e-01  2.405e-01   0.603   0.5467    
+    ## departmentHDO              1.676e-01  2.481e-01   0.676   0.4992    
+    ## departmentABD             -5.123e-02  2.393e-01  -0.214   0.8304    
+    ## engagement_score           5.256e-01  7.175e-02   7.326 2.38e-13 ***
+    ## tenure                    -3.814e-01  9.442e-02  -4.039 5.37e-05 ***
+    ## leadership_score          -7.387e-01  1.458e-01  -5.066 4.06e-07 ***
+    ## overtime                   1.034e-01  5.406e-02   1.913   0.0557 .  
+    ## incidents                 -3.390e-01  7.839e-02  -4.324 1.53e-05 ***
+    ## duration_elearning        -2.974e+00  1.315e-01 -22.623  < 2e-16 ***
+    ## time_in_title              6.205e-01  6.257e-02   9.917  < 2e-16 ***
+    ## delta_trainings_last_year -1.214e+00  1.264e-01  -9.609  < 2e-16 ***
+    ## risk_of_leaving            1.219e+00  1.384e-01   8.805  < 2e-16 ***
+    ## date                       8.469e-04  2.094e-03   0.404   0.6859    
+    ## ratingGood                -1.039e-01  1.876e-01  -0.554   0.5799    
+    ## ratingVery good            7.333e-02  1.893e-01   0.387   0.6985    
+    ## ratingNA                   4.752e-02  1.588e-01   0.299   0.7647    
     ## ---
     ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
     ## 
@@ -397,13 +409,13 @@ data.frame(summary(glm_model)$coefficients) %>%
   arrange(desc(abs(z.value)))
 ```
 
-    ##                             Estimate  Std..Error    z.value      Pr...z..
-    ## duration_elearning        -0.0827849 0.003659258 -22.623408 2.550019e-113
-    ## time_in_title              0.1295752 0.013066570   9.916541  3.527694e-23
-    ## delta_trainings_last_year -1.0707947 0.111434459  -9.609188  7.312313e-22
-    ## risk_of_leaving            8.8295917 1.002750901   8.805369  1.304228e-18
-    ## engagement_score           0.7909186 0.107966591   7.325586  2.378570e-13
-    ## leadership_score          -0.5536432 0.109282220  -5.066178  4.058816e-07
+    ##                             Estimate Std..Error    z.value      Pr...z..
+    ## duration_elearning        -2.9741416 0.13146302 -22.623408 2.550019e-113
+    ## time_in_title              0.6204853 0.06257074   9.916541  3.527694e-23
+    ## delta_trainings_last_year -1.2142956 0.12636818  -9.609188  7.312313e-22
+    ## risk_of_leaving            1.2186392 0.13839729   8.805369  1.304228e-18
+    ## engagement_score           0.5256390 0.07175385   7.325586  2.378570e-13
+    ## leadership_score          -0.7386561 0.14580145  -5.066178  4.058816e-07
 
 To predict unobserved cases I would use a regularized version of glm,
 e.g. a lasso glm. The lasso regression will detect the relevant
@@ -426,7 +438,7 @@ coef(lasso_model)
 
     ## 27 x 1 sparse Matrix of class "dgCMatrix"
     ##                                      s0
-    ## (Intercept)                2.5381327450
+    ## (Intercept)               -6.8972201036
     ## (Intercept)                .           
     ## business_divisionSB       -0.2199492711
     ## business_divisionIB        0.0996588475
@@ -440,15 +452,15 @@ coef(lasso_model)
     ## departmentQHA              0.1183411022
     ## departmentHDO              0.1355405955
     ## departmentABD             -0.0242474351
-    ## engagement_score           0.8246965364
-    ## tenure                    -0.1084614472
-    ## leadership_score          -0.4046570145
-    ## overtime                   0.0075073514
-    ## incidents                 -0.8230382996
-    ## duration_elearning        -0.0777289741
-    ## time_in_title              0.1203688123
-    ## delta_trainings_last_year -0.9325709934
-    ## risk_of_leaving            7.4540216375
+    ## engagement_score           0.5480876376
+    ## tenure                    -0.2681375123
+    ## leadership_score          -0.5398826918
+    ## overtime                   0.0896009276
+    ## incidents                 -0.4108871342
+    ## duration_elearning        -2.7925018290
+    ## time_in_title              0.5763995998
+    ## delta_trainings_last_year -1.0575480855
+    ## risk_of_leaving            1.0287863118
     ## date                       0.0004836384
     ## ratingGood                -0.1106795537
     ## ratingVery good            0.0250625065
@@ -518,28 +530,28 @@ confusionMatrix(reference = as_factor(test_data$training_completed), data = as_f
     ## 
     ##           Reference
     ## Prediction   0   1
-    ##          0 306  69
-    ##          1  90 785
-    ##                                          
-    ##                Accuracy : 0.8728         
-    ##                  95% CI : (0.853, 0.8908)
-    ##     No Information Rate : 0.6832         
-    ##     P-Value [Acc > NIR] : <2e-16         
-    ##                                          
-    ##                   Kappa : 0.7019         
-    ##                                          
-    ##  Mcnemar's Test P-Value : 0.1127         
-    ##                                          
-    ##             Sensitivity : 0.7727         
-    ##             Specificity : 0.9192         
-    ##          Pos Pred Value : 0.8160         
-    ##          Neg Pred Value : 0.8971         
-    ##              Prevalence : 0.3168         
-    ##          Detection Rate : 0.2448         
-    ##    Detection Prevalence : 0.3000         
-    ##       Balanced Accuracy : 0.8460         
-    ##                                          
-    ##        'Positive' Class : 0              
+    ##          0 301  65
+    ##          1  95 789
+    ##                                         
+    ##                Accuracy : 0.872         
+    ##                  95% CI : (0.8522, 0.89)
+    ##     No Information Rate : 0.6832        
+    ##     P-Value [Acc > NIR] : < 2e-16       
+    ##                                         
+    ##                   Kappa : 0.6982        
+    ##                                         
+    ##  Mcnemar's Test P-Value : 0.02187       
+    ##                                         
+    ##             Sensitivity : 0.7601        
+    ##             Specificity : 0.9239        
+    ##          Pos Pred Value : 0.8224        
+    ##          Neg Pred Value : 0.8925        
+    ##              Prevalence : 0.3168        
+    ##          Detection Rate : 0.2408        
+    ##    Detection Prevalence : 0.2928        
+    ##       Balanced Accuracy : 0.8420        
+    ##                                         
+    ##        'Positive' Class : 0             
     ## 
 
 ``` r
@@ -551,28 +563,28 @@ confusionMatrix(reference = as_factor(test_data$training_completed), data = as_f
     ## 
     ##           Reference
     ## Prediction   0   1
-    ##          0 329  91
-    ##          1  67 763
-    ##                                           
-    ##                Accuracy : 0.8736          
-    ##                  95% CI : (0.8539, 0.8915)
-    ##     No Information Rate : 0.6832          
-    ##     P-Value [Acc > NIR] : < 2e-16         
-    ##                                           
-    ##                   Kappa : 0.7127          
-    ##                                           
-    ##  Mcnemar's Test P-Value : 0.06728         
-    ##                                           
-    ##             Sensitivity : 0.8308          
-    ##             Specificity : 0.8934          
-    ##          Pos Pred Value : 0.7833          
-    ##          Neg Pred Value : 0.9193          
-    ##              Prevalence : 0.3168          
-    ##          Detection Rate : 0.2632          
-    ##    Detection Prevalence : 0.3360          
-    ##       Balanced Accuracy : 0.8621          
-    ##                                           
-    ##        'Positive' Class : 0               
+    ##          0 327  90
+    ##          1  69 764
+    ##                                          
+    ##                Accuracy : 0.8728         
+    ##                  95% CI : (0.853, 0.8908)
+    ##     No Information Rate : 0.6832         
+    ##     P-Value [Acc > NIR] : <2e-16         
+    ##                                          
+    ##                   Kappa : 0.7103         
+    ##                                          
+    ##  Mcnemar's Test P-Value : 0.1127         
+    ##                                          
+    ##             Sensitivity : 0.8258         
+    ##             Specificity : 0.8946         
+    ##          Pos Pred Value : 0.7842         
+    ##          Neg Pred Value : 0.9172         
+    ##              Prevalence : 0.3168         
+    ##          Detection Rate : 0.2616         
+    ##    Detection Prevalence : 0.3336         
+    ##       Balanced Accuracy : 0.8602         
+    ##                                          
+    ##        'Positive' Class : 0              
     ## 
 
 # Conclusion

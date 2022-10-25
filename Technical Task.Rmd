@@ -151,12 +151,14 @@ This will allow us to treat the test data the same way later.
 
 
 ```{r}
+names(test_data)
 clean_data <- function(dat){
   
 dat <- dat %>% dplyr::select(-date_performance, -leadership_score2) %>%
   mutate(rating = ifelse(is.na(rating), "NA", rating )) %>%
   mutate(across(c("training_completed", "business_division", "department", "rating"),
-                as_factor))
+                as_factor)) %>%
+  mutate(across(.cols = c("engagement_score", "tenure", "leadership_score", "overtime", "incidents", "duration_elearning", "time_in_title", "delta_trainings_last_year", "risk_of_leaving"), scale))
 
 return(dat)
 }
